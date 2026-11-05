@@ -21,8 +21,16 @@ await mkdir(source);
 const inventory = [];
 const forbiddenName = /^(?:\.git|\.local|\.debug|\.reference|\.vercel|node_modules|sessions\.json|\.env(?:\..*)?|.*\.(?:log|pem|p12|pfx|key))$/i;
 const secret = /-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|\bgh[pousr]_[A-Za-z0-9]{30,}\b|\bgithub_pat_[A-Za-z0-9_]{60,}\b|\bAKIA[0-9A-Z]{16}\b/;
+// Keep the original planning pack local; the public repository has user guides.
+const localPlanningFiles = new Set([
+  'docs/01-PRD.md', 'docs/02-ARCHITECTURE.md', 'docs/03-DESIGN-SYSTEM.md',
+  'docs/04-BLOCKS-SPEC.md', 'docs/05-SIMULATION-SPEC.md', 'docs/06-MISSIONS-SPEC.md',
+  'docs/07-LEARNING-SPEC.md', 'docs/08-ROBOT-BUILDER-SPEC.md',
+  'docs/09-BUILD-PLAN.md', 'docs/10-QUALITY-CHECKLIST.md',
+]);
 
 async function include(path) {
+  if (localPlanningFiles.has(path.replaceAll('\\', '/'))) return;
   const original = join(root, path);
   const info = await lstat(original);
   if (info.isSymbolicLink()) throw new Error(`Symlink needs explicit review: ${path}`);
