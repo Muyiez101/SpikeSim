@@ -1,0 +1,94 @@
+{
+  "name": "spikesim",
+  "private": true,
+  "version": "0.1.0",
+  "description": "An offline robotics playground. Build, code, and bring your ideas to life.",
+  "license": "GPL-3.0-only",
+  "type": "module",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "site:dev": "node scripts/website-server.mjs",
+    "site:check": "node scripts/check-website.mjs",
+    "release:prepare": "node scripts/prepare-publication.mjs",
+    "licenses:collect": "node scripts/license-notices.mjs",
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "vite --host 127.0.0.1",
+    "sim": "tsx scripts/sim.ts",
+    "build:electron": "node scripts/build-electron.mjs",
+    "desktop:check": "node scripts/run-typescript.mjs tests/desktop/check-desktop.ts",
+    "build": "tsc --noEmit && vite build && node scripts/build-electron.mjs",
+    "lint": "eslint . --max-warnings 0",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "e2e": "playwright test",
+    "missions:export": "node scripts/run-typescript.mjs scripts/export-mission-projects.ts",
+    "missions:check": "node scripts/run-typescript.mjs scripts/check-mission-projects.ts",
+    "missions:report": "node scripts/mission-report.mjs",
+    "package": "npm run build && electron-builder --publish never",
+    "format": "prettier --write .",
+    "sumo:host": "node scripts/lan-host.mjs",
+    "classroom:host": "node scripts/classroom-host.mjs",
+    "brand:export": "node scripts/run-typescript.mjs scripts/export-brand.ts",
+    "learn:media": "node scripts/run-typescript.mjs scripts/prepare-learn-media.ts",
+    "sumo:export": "node scripts/run-typescript.mjs scripts/export-sumo-projects.ts"
+  },
+  "dependencies": {
+    "@dimforge/rapier2d-deterministic-compat": "0.21.0",
+    "@fontsource/atkinson-hyperlegible": "5.3.0",
+    "@fontsource/jetbrains-mono": "5.3.0",
+    "@fontsource/lexend": "5.3.0",
+    "blockly": "11.2.2",
+    "lucide-react": "1.61.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.64.1",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "electron": "45.0.0",
+    "electron-builder": "26.18.0",
+    "esbuild": "0.28.2",
+    "eslint": "10.13.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "globals": "16.5.0",
+    "jsdom": "30.1.3",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.72.0",
+    "vite": "8.3.5",
+    "vitest": "5.0.5"
+  },
+  "build": {
+    "appId": "studio.spikesim.app",
+    "productName": "SpikeSim",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-electron/**/*",
+      "package.json"
+    ],
+    "win": {
+      "icon": "public/brand/icon.ico",
+      "target": "nsis"
+    },
+    "mac": {
+      "icon": "public/brand/icon.icns",
+      "target": "dmg"
+    },
+    "linux": {
+      "icon": "public/brand/icon-1024.png",
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    }
+  }
+}

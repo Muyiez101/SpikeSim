@@ -1,0 +1,219 @@
+{
+  "kind": "spikesim-sumo",
+  "program": {
+    "blocks": {
+      "languageVersion": 0,
+      "blocks": [
+        {
+          "type": "spike_start",
+          "x": 25,
+          "y": 25,
+          "next": {
+            "block": {
+              "type": "spike_forever",
+              "inputs": {
+                "DO": {
+                  "block": {
+                    "type": "controls_if",
+                    "extraState": {
+                      "hasElse": true
+                    },
+                    "inputs": {
+                      "IF0": {
+                        "block": {
+                          "type": "logic_operation",
+                          "fields": {
+                            "OP": "OR"
+                          },
+                          "inputs": {
+                            "A": {
+                              "block": {
+                                "type": "spike_color_is",
+                                "fields": {
+                                  "PORT": "D",
+                                  "COLOR": "red"
+                                },
+                                "id": "match-5"
+                              }
+                            },
+                            "B": {
+                              "block": {
+                                "type": "spike_color_is",
+                                "fields": {
+                                  "PORT": "F",
+                                  "COLOR": "red"
+                                },
+                                "id": "match-6"
+                              }
+                            }
+                          },
+                          "id": "match-4"
+                        }
+                      },
+                      "DO0": {
+                        "block": {
+                          "type": "spike_move",
+                          "inputs": {
+                            "DISTANCE": {
+                              "shadow": {
+                                "type": "math_number",
+                                "fields": {
+                                  "NUM": -18
+                                },
+                                "id": "match-8"
+                              }
+                            },
+                            "SPEED": {
+                              "shadow": {
+                                "type": "math_number",
+                                "fields": {
+                                  "NUM": 45
+                                },
+                                "id": "match-9"
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "spike_turn",
+                              "inputs": {
+                                "ANGLE": {
+                                  "shadow": {
+                                    "type": "math_number",
+                                    "fields": {
+                                      "NUM": 120
+                                    },
+                                    "id": "match-11"
+                                  }
+                                },
+                                "SPEED": {
+                                  "shadow": {
+                                    "type": "math_number",
+                                    "fields": {
+                                      "NUM": 25
+                                    },
+                                    "id": "match-12"
+                                  }
+                                }
+                              },
+                              "id": "match-10"
+                            }
+                          },
+                          "id": "match-7"
+                        }
+                      },
+                      "ELSE": {
+                        "block": {
+                          "type": "controls_if",
+                          "extraState": {
+                            "hasElse": true
+                          },
+                          "inputs": {
+                            "IF0": {
+                              "block": {
+                                "type": "spike_distance_compare",
+                                "fields": {
+                                  "PORT": "E",
+                                  "OP": "LT"
+                                },
+                                "inputs": {
+                                  "DISTANCE": {
+                                    "shadow": {
+                                      "type": "math_number",
+                                      "fields": {
+                                        "NUM": 100
+                                      },
+                                      "id": "match-15"
+                                    }
+                                  }
+                                },
+                                "id": "match-14"
+                              }
+                            },
+                            "DO0": {
+                              "block": {
+                                "type": "spike_start_tank",
+                                "inputs": {
+                                  "LEFT": {
+                                    "shadow": {
+                                      "type": "math_number",
+                                      "fields": {
+                                        "NUM": 85
+                                      },
+                                      "id": "match-17"
+                                    }
+                                  },
+                                  "RIGHT": {
+                                    "shadow": {
+                                      "type": "math_number",
+                                      "fields": {
+                                        "NUM": 85
+                                      },
+                                      "id": "match-18"
+                                    }
+                                  }
+                                },
+                                "id": "match-16"
+                              }
+                            },
+                            "ELSE": {
+                              "block": {
+                                "type": "spike_start_tank",
+                                "inputs": {
+                                  "LEFT": {
+                                    "shadow": {
+                                      "type": "math_number",
+                                      "fields": {
+                                        "NUM": 28
+                                      },
+                                      "id": "match-20"
+                                    }
+                                  },
+                                  "RIGHT": {
+                                    "shadow": {
+                                      "type": "math_number",
+                                      "fields": {
+                                        "NUM": -28
+                                      },
+                                      "id": "match-21"
+                                    }
+                                  }
+                                },
+                                "id": "match-19"
+                              }
+                            }
+                          },
+                          "id": "match-13"
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "spike_wait",
+                        "inputs": {
+                          "TIME": {
+                            "shadow": {
+                              "type": "math_number",
+                              "fields": {
+                                "NUM": 0.03
+                              },
+                              "id": "match-23"
+                            }
+                          }
+                        },
+                        "id": "match-22"
+                      }
+                    },
+                    "id": "match-3"
+                  }
+                }
+              },
+              "id": "match-2"
+            }
+          },
+          "id": "match-1"
+        }
+      ]
+    }
+  }
+}

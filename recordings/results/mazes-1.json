@@ -1,0 +1,143 @@
+﻿{
+    "id":  "mazes-1",
+    "name":  "Corridor run",
+    "checkedAt":  "2026-11-01T11:45:02.201Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "stopInZone",
+                                                   "zone":  "finish"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish inside finish"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "avoidCollisions"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Avoid collisions"
+                                  }
+                              ],
+                    "runSeconds":  3.755,
+                    "xp":  70
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Finish inside finish",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Avoid collisions",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  3.755,
+                "robot":  {
+                              "x":  884.0881382247142,
+                              "y":  198.6631527991238,
+                              "heading":  0.012234379649714749,
+                              "wheels":  [
+                                             1551.40688938036,
+                                             1562.0694754677825
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "white",
+                                "E":  207.43441402474883,
+                                "F":  0,
+                                "C":  0.6242028753146087
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "finish",
+                                    "tags":  [
+                                                 "finish"
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "stop-1",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   }
+               ],
+    "usedBlocks":  [
+                       "spike_move"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/mazes-1.mp4"
+}

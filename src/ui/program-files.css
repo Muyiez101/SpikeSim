@@ -1,0 +1,22 @@
+.program-file-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.program-file-actions button { flex: 1 1 100px; min-height: 44px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-soft); padding: 6px 8px; color: var(--ink); font-size: 0.76rem; }
+.program-file-actions button:disabled { cursor: default; opacity: 0.55; }
+.program-file-message, .program-file-error { margin: 8px 0 0; font-size: 0.8rem; }
+.program-file-error { color: var(--danger); }
+.program-file-dialog { width: min(500px, calc(100vw - 48px)); max-height: calc(100vh - 48px); border: 1px solid var(--line-strong); border-radius: 16px; padding: 24px; background: var(--surface); color: var(--ink); }
+.program-file-dialog::backdrop { background: rgb(12 18 35 / 65%); }
+.program-file-dialog h2 { margin: 0 0 20px; font-size: 1.3rem; }
+.program-file-dialog p { overflow-wrap: anywhere; line-height: 1.5; }
+.program-file-dialog form > p { margin-top: 12px; }
+.program-file-dialog label { display: block; margin-bottom: 8px; font-weight: 700; }
+.program-file-dialog input { width: 100%; min-height: 44px; border: 1px solid var(--line-strong); border-radius: 8px; padding: 8px 12px; background: var(--surface-soft); color: var(--ink); }
+.program-import-name { font-family: Lexend, sans-serif; font-weight: 600; }
+.program-dialog-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; margin-top: 20px; }
+.save-conflict { margin: 14px; padding: 16px; border: 1px solid var(--line-strong); border-radius: 12px; background: var(--surface); }
+.save-conflict h2 { margin: 0 0 8px; font-size: 1rem; }
+.save-conflict p { margin: 0; font-size: 0.9rem; }
+.pg-panel > .save-conflict { margin: 0; padding: 12px; background: var(--surface-soft); }
+.pg-panel > .save-conflict h2 { font-size: 0.85rem; }
+.pg-panel > .save-conflict p { font-size: 0.8rem; }
+.pg-panel > .save-conflict .program-dialog-actions { margin-top: 12px; }
+.pg-panel > .save-conflict button { width: 100%; min-height: 44px; padding: 8px; font-size: 0.8rem; }

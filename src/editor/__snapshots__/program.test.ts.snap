@@ -1,0 +1,811 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`block definitions and Python preview > controls_flow_statements serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    break
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > controls_for serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    for value in runloop.count(1, 5, 1):
+        pass
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > controls_if serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    if None:
+        pass
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > controls_repeat_ext serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    for _ in range(int(4)):
+        pass
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > controls_whileUntil serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    while (None):
+        pass
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > logic_boolean serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(True)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > logic_compare serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print((10 == 20))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > logic_negate serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print((not None))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > logic_operation serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print((None and None))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > math_arithmetic serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print((10 + 2))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > math_change serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    value += 1
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > math_modulo serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print((10 % 3))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > math_number serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(0)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > math_random_int serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(random.randint(1, 10))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > math_round serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(round(1.5))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > math_single serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(math.sqrt(-5))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > procedures_callnoreturn serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    await value()
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > procedures_defnoreturn serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def unnamed():
+    pass
+
+async def main():
+    pass
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_angle serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(hub.angle("yaw"))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_beep serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    await hub.beep(440, seconds=0.3)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_broadcast serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    runloop.broadcast("message1")
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_button_pressed serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(hub.button_pressed("left"))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_clear serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    hub.clear()
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_color serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(sensors.color("D"))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_color_is serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print((sensors.color("D") == "black"))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_distance serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(sensors.distance_cm("E"))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_distance_compare serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(sensors.distance_compare("E", "LT", 15))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_distance_lights serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    sensors.set_lights("E", [100, 100, 100, 100])
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_force serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(sensors.force("F"))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_force_pressed serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print((sensors.force("F") > 0))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_forever serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    while True:
+        pass
+        await runloop.yield_tick()
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_heading serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(robot.heading())
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_image serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    hub.show_image("smile")
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_light serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    hub.set_light("red")
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_matrix_pattern serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    await hub.show_pattern("0000009090000009000909990", seconds=1)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_motor serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    await robot.motor("A", 50, seconds=1)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_motor_absolute serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print((robot.motor_position("A") % 360))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_motor_for serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    await robot.motor_for("A", "clockwise", 1, "rotations")
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_motor_position serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(robot.motor_position("A"))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_motor_reset serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    robot.reset_motor_position("A", 0)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_motor_speed serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    robot.set_motor_speed("A", 50)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_motor_speed_value serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(robot.motor_speed("A"))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_motor_start serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    robot.start_motor("A", "clockwise")
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_motor_stop serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    robot.stop_motor("A")
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_move serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    await robot.move_cm(30, speed=60)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_move_default serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    await robot.move_cm(30)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_move_for serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    await robot.move_for("forward", 10, "cm")
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_pair serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    robot.pair("A", "B")
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_pixel serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    hub.set_pixel(2, 2, 100)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_print serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print("Hello, robot!")
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_reflection serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(sensors.reflection("D"))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_reflection_compare serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print((sensors.reflection("D") < 50))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_reset_timer serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    runloop.reset_timer()
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_reset_yaw serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    robot.reset_yaw(0)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_speed serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    robot.set_speed(60)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_start serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    pass
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_start_move serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    robot.start_moving("forward")
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_start_tank serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    robot.start_tank(50, 50)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_steer_for serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    await robot.steer_for(0, 10, "cm")
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_stop serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    robot.stop_program()
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_stop_move serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    robot.stop_moving()
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_tank serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    await robot.tank(50, 50, seconds=1)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_text serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    await hub.write("Hello, robot!")
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_timer serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(runloop.timer())
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_turn serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    await robot.turn(90, speed=40)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_wait serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    await runloop.sleep(1)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_wait_until serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    while not (None):
+        await runloop.sleep(1 / 60)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_wheel_distance serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    robot.set_wheel_travel(17.6)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > spike_when_button serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def _spike_task_0():
+    pass
+
+runloop.run_events([], [(lambda: hub.button_pressed("left"), _spike_task_0)])"
+`;
+
+exports[`block definitions and Python preview > spike_when_color serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def _spike_task_0():
+    pass
+
+runloop.run_events([], [(lambda: sensors.color("D") == "red", _spike_task_0)])"
+`;
+
+exports[`block definitions and Python preview > spike_when_condition serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def _spike_task_0():
+    pass
+
+runloop.run_events([], [(lambda: None, _spike_task_0)])"
+`;
+
+exports[`block definitions and Python preview > spike_when_distance serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def _spike_task_0():
+    pass
+
+runloop.run_events([], [(lambda: sensors.distance_compare("E", "LT", 15), _spike_task_0)])"
+`;
+
+exports[`block definitions and Python preview > spike_when_force serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def _spike_task_0():
+    pass
+
+runloop.run_events([], [(lambda: sensors.force("F") > 0, _spike_task_0)])"
+`;
+
+exports[`block definitions and Python preview > spike_when_message serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def _spike_task_0():
+    pass
+
+runloop.run_events([], [(lambda: runloop.message_count("message1"), _spike_task_0)])"
+`;
+
+exports[`block definitions and Python preview > spike_when_timer serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def _spike_task_0():
+    pass
+
+runloop.run_events([], [(lambda: runloop.timer() > 1, _spike_task_0)])"
+`;
+
+exports[`block definitions and Python preview > text serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print("")
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > text_join serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print("")
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > text_length serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(len(str(None)))
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > variables_get serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    print(value)
+
+runloop.run(main())"
+`;
+
+exports[`block definitions and Python preview > variables_set serializes and generates its Python 1`] = `
+"from spikesim import robot, sensors, hub, runloop
+import math, random
+
+async def main():
+    value = 0
+
+runloop.run(main())"
+`;

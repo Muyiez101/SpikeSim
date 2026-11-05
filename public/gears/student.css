@@ -1,0 +1,22 @@
+/* The upstream menus and editor remain in source; students use SpikeSim's UI. */
+body.student-mode > header, body.student-mode main > nav,
+body.student-mode .blocklyEditor, body.student-mode .panel[aria-labelledby="navPython"],
+body.student-mode #blocklyPages, body.student-mode .runSim,
+body.student-mode .reset, body.student-mode .world, body.student-mode .sensors,
+body.student-mode .console, body.student-mode .fps { display: none !important; }
+body.student-mode .hubButtons { display:none!important; }
+body.student-mode .ruler { display:none!important; }
+body.student-mode main, body.student-mode .panels { height:100%; width:100%; }
+body.student-mode #simPanel { display:block; position:absolute; left:0; top:0; width:100%; height:100%; z-index:1; }
+body.student-mode #renderCanvas { width:100%;height:100%; }
+body.student-mode .cameraSelector { top:12px;right:12px; }
+body.student-mode .spike-hub {position:absolute;bottom:8px;right:8px;z-index:4;padding:6px;background:#233047ed;border-radius:10px;color:white;width:104px;box-sizing:border-box;display:grid;grid-template-columns:1fr 1fr;gap:4px;}
+body.student-mode .spike-matrix {grid-column:1/-1;justify-self:center;display:grid;grid-template-columns:repeat(5,7px);gap:2px;margin:2px 0;}
+body.student-mode .spike-matrix i {width:7px;height:7px;border-radius:2px;background:#ffdc63;}
+body.student-mode .spike-hub > span {grid-column:1/-1;font-size:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+body.student-mode .spike-hub > span:empty {display:none;}
+body.student-mode .spike-hub button {min-width:44px;min-height:36px;border:1px solid #bac7de;border-radius:6px;background:#edf1f8;color:#14213d;font-size:14px;padding:3px;margin:0;cursor:pointer;}
+@media(max-height:260px){body.student-mode .spike-hub{bottom:5px;right:5px;padding:4px;width:100px;gap:2px;}body.student-mode .spike-matrix{grid-template-columns:repeat(5,5px);}body.student-mode .spike-matrix i{width:5px;height:5px;}}
+body.student-mode .spike-hub button:active {background:#ffdc63;}
+body.student-mode .spike-hub button:focus-visible {outline:3px solid #d8ff59;outline-offset:2px;}
+body.student-mode .worldInfo {left:8px;top:8px;margin:0;width:180px;font-size:13px;max-height:none;padding:7px;pointer-events:none;}

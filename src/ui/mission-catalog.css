@@ -1,0 +1,44 @@
+.mission-catalog { display: grid; gap: 28px; }
+.catalog-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.catalog-header h1 { margin: 8px 0 14px; font-size: clamp(1.8rem, 3vw, 2.7rem); letter-spacing: -0.05em; line-height: 1.15; }
+.catalog-header .button { flex: 0 0 auto; }
+.catalog-summary { margin: 0; color: var(--primary-deep); font-size: 0.85rem; font-weight: 700; }
+:root[data-theme='dark'] .catalog-summary { color: #c2baff; }
+.catalog-intro { margin: 0; max-width: 52ch; }
+.catalog-toolbar { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; justify-content: space-between; }
+.catalog-filters { display: flex; flex-wrap: wrap; gap: 8px; }
+.catalog-filters button { display: flex; align-items: center; gap: 8px; min-height: 44px; border: 1px solid var(--line); border-radius: 999px; padding: 8px 12px; background: var(--surface); color: var(--ink-soft); font-size: 0.8rem; }
+.catalog-filters button[aria-pressed='true'] { border-color: var(--primary); background: #edeafd; color: var(--primary-deep); font-weight: 700; }
+:root[data-theme='dark'] .catalog-filters button[aria-pressed='true'] { background: #2b2755; color: #d3ccff; }
+.catalog-filters button span { min-width: 21px; padding: 2px 5px; border-radius: 999px; background: var(--surface-soft); color: var(--ink); text-align: center; font-size: 0.7rem; }
+.catalog-counts { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.catalog-result-count, .catalog-program-count { margin: 0; color: var(--ink-soft); font-size: 0.82rem; }
+.catalog-save-message { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 0; border: 1px solid var(--line-strong); border-radius: 10px; padding: 12px 16px; background: var(--surface); }
+.catalog-save-message p { flex: 1 1 300px; margin: 0; }
+.catalog-worlds { display: grid; gap: 36px; }
+.catalog-world { min-width: 0; }
+.catalog-world-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; margin-bottom: 16px; }
+.catalog-world-heading h2 { margin: 0 0 7px; font-size: 1.15rem; }
+.catalog-world-heading p { margin: 0; max-width: 65ch; font-size: 0.88rem; }
+.catalog-world-heading > span { flex: 0 0 auto; color: var(--ink-soft); font-size: 0.78rem; padding-top: 4px; }
+.catalog-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(245px, 100%), 1fr)); gap: 16px; }
+.catalog-card { display: flex; flex-direction: column; min-width: 0; gap: 13px; padding: 20px; border: 1px solid var(--line); border-top: 3px solid #a99af4; border-radius: 14px; background: var(--surface); }
+.catalog-card[data-world='conditions'] { border-top-color: #7bc9f4; }
+.catalog-card[data-world='loops'] { border-top-color: #b9e769; }
+.catalog-card-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.catalog-mission-number { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 9px; background: var(--surface-soft); color: var(--ink-soft); font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; }
+.catalog-goal-count { color: var(--ink-soft); font-size: 0.76rem; }
+.catalog-card h3 { margin: 0; font-family: Lexend, sans-serif; font-size: 1.04rem; font-weight: 500; line-height: 1.35; }
+.catalog-brief { margin: 0; font-size: 0.9rem; line-height: 1.5; }
+.catalog-time { margin: 0; color: var(--ink-soft); font-size: 0.78rem; }
+.catalog-program { display: grid; gap: 7px; margin-top: auto; padding-top: 13px; border-top: 1px solid var(--line); }
+.catalog-program p { margin: 0; font-size: 0.8rem; }
+.catalog-last-run { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; }
+.catalog-stars { display: inline-flex; gap: 2px; color: var(--line-strong); font-size: 1rem; }
+.catalog-stars .earned { color: #a16c00; }
+:root[data-theme='dark'] .catalog-stars .earned { color: #ffd66b; }
+.catalog-card .button { width: 100%; justify-content: space-between; font-size: 0.85rem; }
+@media (max-width: 1100px) {
+  .catalog-header { align-items: flex-start; flex-direction: column; gap: 16px; }
+  .catalog-card { padding: 16px; }
+}

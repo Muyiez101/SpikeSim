@@ -1,0 +1,13 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.700
+The robot begins facing its starting direction. Use this as your zero direction.
+
+2
+00:00:00.700 --> 00:00:05.320
+The robot turns toward the target heading. Its position stays almost the same while its direction changes.
+
+3
+00:00:05.320 --> 00:00:06.116
+The robot faces the new direction. The gyro reading helps check the angle; it does not measure a journey across the mat.

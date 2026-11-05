@@ -1,0 +1,629 @@
+{
+    "id":  "champions-1",
+    "name":  "Double delivery",
+    "checkedAt":  "2026-11-01T11:52:46.773Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "pushObjectToZone",
+                                                   "object":  "parcel-1",
+                                                   "zone":  "finish"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Push parcel-1 into finish"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "pushObjectToZone",
+                                                   "object":  "parcel-2",
+                                                   "zone":  "finish"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Push parcel-2 into finish"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "stopInZone",
+                                                   "zone":  "finish"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish inside finish"
+                                  }
+                              ],
+                    "runSeconds":  14.74710000000149,
+                    "xp":  75
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Push parcel-1 into finish",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Push parcel-2 into finish",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Finish inside finish",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  14.74710000000149,
+                "robot":  {
+                              "x":  795.4215055882402,
+                              "y":  451.0613244116379,
+                              "heading":  -0.0025592413327420187,
+                              "wheels":  [
+                                             1909.895666610934,
+                                             1889.0290854363354
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+                                {
+                                    "id":  "parcel-1",
+                                    "x":  958.1282806396484,
+                                    "y":  220.66288948059082,
+                                    "heading":  0
+                                },
+                                {
+                                    "id":  "parcel-2",
+                                    "x":  946.0301971435547,
+                                    "y":  470.1952838897705,
+                                    "heading":  0
+                                }
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "white",
+                                "E":  22.097336246451974,
+                                "F":  0,
+                                "C":  -0.16107111061219825
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "finish",
+                                    "tags":  [
+                                                 "finish"
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   }
+               ],
+    "usedBlocks":  [
+                       "spike_move",
+                       "spike_turn"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/champions-1.mp4"
+}

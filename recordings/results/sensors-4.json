@@ -1,0 +1,133 @@
+{
+    "id":  "sensors-4",
+    "name":  "Gyro guard",
+    "checkedAt":  "2026-11-01T12:02:10.353Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "usesBlock",
+                                                   "block":  "spike_heading"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run a Heading block"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "headingWithin",
+                                                   "degrees":  90,
+                                                   "tolerance":  1
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish facing 90Â° (within 1Â°)"
+                                  }
+                              ],
+                    "runSeconds":  1.9315,
+                    "xp":  70
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Run a Heading block",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Finish facing 90Â° (within 1Â°)",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  1.9315,
+                "robot":  {
+                              "x":  140.0969954014829,
+                              "y":  298.7687915855105,
+                              "heading":  -4.707323716875098,
+                              "wheels":  [
+                                             185.70063388223528,
+                                             -182.34216229460168
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "white",
+                                "E":  592.7421900897219,
+                                "F":  0,
+                                "C":  90.31191993162713
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+
+               ],
+    "usedBlocks":  [
+                       "controls_whileUntil",
+                       "logic_compare",
+                       "math_single",
+                       "math_arithmetic",
+                       "spike_heading",
+                       "spike_turn"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/sensors-4.mp4"
+}

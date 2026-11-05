@@ -1,0 +1,828 @@
+.sumo-page {
+  --sumo-purple: #6846c8;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 28px clamp(16px, 2.5vw, 38px) 36px;
+  max-width: 1800px;
+  margin: auto;
+  color: var(--ink);
+}
+.sumo-page h1,
+.sumo-page h2,
+.sumo-page h3,
+.sumo-page p {
+  margin: 0;
+}
+.sumo-page h1 {
+  font:
+    600 clamp(28px, 3vw, 36px)/1.2 Lexend,
+    sans-serif;
+  letter-spacing: -1.2px;
+  margin: 7px 0;
+}
+.sumo-page h2 {
+  font:
+    600 18px/1.35 Lexend,
+    sans-serif;
+  letter-spacing: -0.35px;
+}
+.sumo-page p {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-soft, #526078);
+}
+.sumo-page button,
+.sumo-page input,
+.sumo-file {
+  font: inherit;
+  font-size: 13px;
+  min-height: 44px;
+  border: 1px solid var(--line-strong, #cbd1df);
+  border-radius: 10px;
+  background: var(--surface, white);
+  color: var(--ink);
+}
+.sumo-page button,
+.sumo-file {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.sumo-page button svg {
+  flex: none;
+}
+.sumo-page input {
+  padding: 10px 12px;
+  width: 100%;
+  min-width: 0;
+}
+.sumo-page button:hover:not(:disabled),
+.sumo-file:hover:not(.is-disabled) {
+  border-color: var(--sumo-purple);
+  background: var(--surface-soft);
+}
+.sumo-page button:disabled,
+.sumo-file.is-disabled {
+  opacity: 0.48;
+  cursor: default;
+}
+.sumo-page button:focus-visible,
+.sumo-page input:focus-visible,
+.sumo-page a:focus-visible,
+.sumo-page summary:focus-visible,
+.sumo-file:focus-within {
+  outline: 3px solid #9c83ee;
+  outline-offset: 3px;
+}
+.sumo-page label {
+  display: grid;
+  font-size: 12px;
+  font-weight: 600;
+  gap: 6px;
+}
+.sumo-page .sumo-primary {
+  background: var(--sumo-purple);
+  border-color: var(--sumo-purple);
+  color: #fff;
+}
+.sumo-page .sumo-primary:hover:not(:disabled) {
+  background: #5636b2;
+  border-color: #5636b2;
+}
+.sumo-page .sumo-icon-button {
+  padding: 10px;
+  width: 44px;
+  flex: none;
+}
+.sumo-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.sumo-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font:
+    600 11px/1.5 Lexend,
+    sans-serif;
+  letter-spacing: 1.2px;
+  color: var(--primary-deep, #6846c8);
+}
+.sumo-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.sumo-facts > span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  font-size: 12px;
+  white-space: nowrap;
+}
+.sumo-facts svg {
+  color: var(--primary-deep);
+}
+.sumo-connect {
+  display: grid;
+  grid-template-columns: minmax(170px, 0.85fr) minmax(175px, 0.8fr) minmax(300px, 1.45fr);
+  column-gap: 26px;
+  row-gap: 18px;
+  align-items: center;
+  padding: 22px 24px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+.sumo-identity {
+  display: grid;
+  gap: 12px;
+}
+.sumo-identity h2 {
+  font-size: 17px;
+}
+.sumo-host-option {
+  display: grid;
+  gap: 12px;
+  justify-items: start;
+}
+.sumo-join-option {
+  border-left: 1px solid var(--line);
+  padding-left: 26px;
+  display: grid;
+  gap: 10px;
+}
+.sumo-join-option p,
+.sumo-host-option p {
+  font-size: 13px;
+}
+.sumo-join-row {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+.sumo-join-row label {
+  flex: 1;
+}
+.sumo-join-row button {
+  flex-shrink: 0;
+}
+.sumo-code-input {
+  font-family: 'JetBrains Mono', monospace !important;
+  letter-spacing: 3px;
+}
+.sumo-address {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.sumo-address input {
+  min-height: 36px;
+  font-size: 12px;
+}
+.sumo-page .sumo-host-help {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  grid-column: 1 / -1;
+  font-size: 12px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+.sumo-host-help svg {
+  flex: none;
+}
+.sumo-lobby {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: center;
+  padding: 18px 24px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 18px;
+}
+.sumo-code {
+  display: block;
+  font:
+    600 26px/1.5 'JetBrains Mono',
+    monospace;
+  letter-spacing: 5px;
+}
+.sumo-connection {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+.sumo-connection.is-live {
+  color: #237449;
+}
+.sumo-lobby .sumo-leave {
+  margin-left: auto;
+}
+.sumo-links {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.sumo-links a {
+  font-size: 12px;
+  overflow-wrap: anywhere;
+  color: var(--primary-deep);
+}
+.sumo-layout {
+  display: grid;
+  grid-template-columns: minmax(360px, 0.92fr) minmax(420px, 1.08fr);
+  align-items: start;
+  gap: 22px;
+}
+.sumo-code-panel {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+}
+.sumo-code-heading {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 20px 18px 16px;
+  flex-wrap: wrap;
+}
+.sumo-code-heading p {
+  font-size: 12px;
+  margin-top: 3px;
+}
+.sumo-code-icon {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: var(--surface-soft);
+  color: var(--primary-deep);
+}
+.sumo-locked {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 11px;
+  color: var(--ink-soft);
+}
+.sumo-file-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0 18px 16px;
+}
+.sumo-file-tools .sumo-example {
+  margin-right: auto;
+  font-size: 12px;
+}
+.sumo-file {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex !important;
+  width: 44px;
+  padding: 10px;
+}
+.sumo-file input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.sumo-file input:disabled {
+  cursor: default;
+}
+.sumo-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.sumo-editor {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 0;
+  height: 490px;
+  border-top: 1px solid var(--line);
+}
+.sumo-editor > .block-editor {
+  flex: 1;
+  min-height: 0;
+}
+.sumo-editor[inert] {
+  opacity: 0.7;
+}
+.sumo-details {
+  padding: 14px 18px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+}
+.sumo-details summary {
+  cursor: pointer;
+  min-height: 24px;
+  font-weight: 600;
+}
+.sumo-details p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.sumo-stage-panel {
+  min-width: 0;
+  border: 1px solid #2d3650;
+  border-radius: 18px;
+  background: #171d30;
+  color: #f0f2fc;
+  overflow: hidden;
+  box-shadow: 0 12px 28px #12183014;
+}
+.sumo-arena-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 20px 10px;
+}
+.sumo-arena-heading .sumo-eyebrow {
+  color: #b7a7f7;
+  margin-bottom: 3px;
+}
+.sumo-arena-heading h2 {
+  font-size: 20px;
+}
+.sumo-arena-heading .sumo-icon-button {
+  background: #252e46;
+  border-color: #3a4563;
+  color: #e7ebf8;
+}
+.sumo-arena-heading .sumo-icon-button:hover {
+  background: #333f5c !important;
+  border-color: #ac96f0 !important;
+}
+.sumo-arena-scene {
+  position: relative;
+  background:
+    radial-gradient(ellipse at 50% 55%, #34325066, transparent 65%),
+    radial-gradient(#7586b020 0.8px, transparent 0.8px);
+  background-size:
+    auto,
+    18px 18px;
+  padding: 8px 20px 14px;
+}
+.sumo-arena-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 11px;
+  color: #aeb9d2;
+}
+.sumo-phase {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  border: 1px solid #46516d;
+  background: #263049;
+  border-radius: 999px;
+  padding: 5px 9px;
+  color: #e4e9f6;
+}
+.sumo-phase > span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #aab4cc;
+}
+.sumo-phase-running > span {
+  background: #a5e8b8;
+}
+.sumo-phase-finished > span {
+  background: #cbbaff;
+}
+.sumo-phase-offline > span {
+  background: #ffc09d;
+}
+.sumo-clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6px;
+}
+.sumo-clock > span {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #aeb9d2;
+}
+.sumo-clock strong {
+  font:
+    500 30px/1.3 'JetBrains Mono',
+    monospace;
+  letter-spacing: -1px;
+}
+.sumo-ring {
+  display: block;
+  width: 100%;
+  height: clamp(260px, 26vw, 365px);
+}
+.sumo-page .sumo-model {
+  color: #aeb9d2;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 2px;
+}
+.sumo-players {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 10px;
+  padding: 0 18px 16px;
+}
+.sumo-player {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #554578;
+  background: #29233e;
+  border-radius: 12px;
+  min-width: 0;
+}
+.sumo-player-1 {
+  border-color: #295e69;
+  background: #19333f;
+}
+.sumo-player > div {
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+}
+.sumo-player-number {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 34px;
+  height: 36px;
+  border-radius: 9px;
+  background: #7953df;
+  color: #fff;
+  font:
+    600 14px 'JetBrains Mono',
+    monospace;
+}
+.sumo-player-1 .sumo-player-number {
+  background: #147c88;
+}
+.sumo-player-label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  color: #c7c2d9;
+}
+.sumo-player strong {
+  font-size: 12px;
+  overflow-wrap: anywhere;
+  font-weight: 600;
+}
+.sumo-player-state {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  font-size: 10px;
+  color: #d3dbea;
+}
+.sumo-you {
+  font-size: 9px;
+  border: 1px solid #8475a9;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+.sumo-match-tools {
+  padding: 16px 18px;
+  border-top: 1px solid #35405b;
+  background: #1d253b;
+}
+.sumo-page .sumo-match-tools p {
+  font-size: 12px;
+  color: #c7d1e4;
+}
+.sumo-match-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+.sumo-match-actions:not(:empty) {
+  margin-top: 12px;
+}
+.sumo-match-actions button {
+  flex: 1;
+}
+.sumo-match-actions .sumo-start {
+  background: #cef488;
+  color: #243712;
+  border-color: #cef488;
+}
+.sumo-match-actions .sumo-start:hover:not(:disabled) {
+  background: #b9df70;
+}
+.sumo-match-actions button:disabled {
+  opacity: 0.55;
+}
+.sumo-match-actions .sumo-stop {
+  background: #ffc2c7;
+  border-color: #ffc2c7;
+  color: #5a1721;
+}
+.sumo-result {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 0 18px 16px;
+  padding: 16px;
+  border: 1px solid #8eb897;
+  border-radius: 12px;
+  background: #deefda;
+  color: #254c32;
+}
+.sumo-result > svg {
+  flex: none;
+}
+.sumo-result strong {
+  font:
+    600 18px Lexend,
+    sans-serif;
+}
+.sumo-page .sumo-result p {
+  color: #345c40;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.sumo-error {
+  padding: 14px 18px;
+  background: #fee7e5;
+  color: #802119 !important;
+  border: 1px solid #e6aaa3;
+  border-radius: 12px;
+}
+.sumo-rule-section {
+  padding: 22px 24px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+.sumo-rule-intro {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.sumo-rule-intro > svg {
+  color: var(--primary-deep);
+}
+.sumo-rule-intro h2 {
+  font-size: 16px;
+}
+.sumo-rule-intro p {
+  font-size: 12px;
+  margin-top: 4px;
+}
+.sumo-rule-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.sumo-rule-cards article {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.sumo-rule-cards article > span {
+  font:
+    500 17px 'JetBrains Mono',
+    monospace;
+  color: var(--primary-deep);
+}
+.sumo-rule-cards h3 {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+.sumo-rule-cards p {
+  font-size: 12px;
+}
+.sumo-arena-dialog {
+  padding: 0;
+  border: 0;
+  width: min(1100px, calc(100vw - 40px));
+  max-width: none;
+  max-height: calc(100dvh - 32px);
+  border-radius: 18px;
+  background: #171d30;
+  color: #f0f2fc;
+}
+.sumo-arena-dialog::backdrop {
+  background: #090e21bd;
+  backdrop-filter: blur(5px);
+}
+.sumo-arena-dialog .sumo-stage-panel {
+  border: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 250px;
+  grid-template-rows: auto auto auto 1fr;
+}
+.sumo-arena-dialog .sumo-arena-heading {
+  grid-column: 1 / -1;
+}
+.sumo-arena-dialog .sumo-arena-scene {
+  grid-column: 1;
+  grid-row: 2 / 5;
+  height: calc(100dvh - 128px);
+  min-height: 340px;
+}
+.sumo-arena-dialog .sumo-clock {
+  position: absolute;
+  right: 24px;
+  top: 52px;
+}
+.sumo-arena-dialog .sumo-ring {
+  height: max(280px, calc(100dvh - 195px));
+}
+.sumo-arena-dialog .sumo-players {
+  grid-column: 2;
+  grid-row: 2;
+  grid-template-columns: minmax(0, 1fr);
+  padding: 14px;
+}
+.sumo-arena-dialog .sumo-result {
+  grid-column: 2;
+  grid-row: 3;
+  margin-inline: 14px;
+}
+.sumo-arena-dialog .sumo-match-tools {
+  grid-column: 2;
+  grid-row: 4;
+  align-self: start;
+  margin: 0 14px 14px;
+  padding: 14px;
+  border: 1px solid #35405b;
+  border-radius: 12px;
+}
+.sumo-arena-dialog .sumo-match-actions {
+  flex-direction: column;
+}
+:root[data-theme='dark'] .sumo-connection.is-live {
+  color: #a1e4b8;
+}
+:root[data-theme='dark'] .sumo-eyebrow,
+:root[data-theme='dark'] .sumo-facts svg,
+:root[data-theme='dark'] .sumo-code-icon,
+:root[data-theme='dark'] .sumo-rule-cards article > span,
+:root[data-theme='dark'] .sumo-rule-intro > svg,
+:root[data-theme='dark'] .sumo-links a {
+  color: #bca8f7;
+}
+@media (max-width: 1150px) {
+  .sumo-heading {
+    align-items: flex-start;
+  }
+  .sumo-facts {
+    max-width: 310px;
+  }
+  .sumo-connect {
+    column-gap: 18px;
+    padding: 20px;
+  }
+  .sumo-join-option {
+    padding-left: 18px;
+  }
+  .sumo-layout {
+    grid-template-columns: minmax(320px, 0.95fr) minmax(360px, 1.05fr);
+    gap: 16px;
+  }
+  .sumo-player {
+    padding: 10px;
+    gap: 7px;
+  }
+  .sumo-player-number {
+    width: 28px;
+    height: 30px;
+  }
+  .sumo-file-tools {
+    padding-inline: 12px;
+    gap: 5px;
+  }
+  .sumo-file-tools .sumo-example {
+    font-size: 11px;
+    padding-inline: 10px;
+  }
+}
+@media (max-width: 1050px) {
+  .sumo-page {
+    padding: 22px 16px;
+  }
+  .sumo-connect {
+    grid-template-columns: 1fr 1fr;
+  }
+  .sumo-identity {
+    grid-row: 1;
+  }
+  .sumo-host-option {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .sumo-join-option {
+    grid-column: 2;
+    grid-row: 1 / 3;
+  }
+  .sumo-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .sumo-stage-panel {
+    grid-row: 1;
+  }
+  .sumo-ring {
+    height: 360px;
+  }
+  .sumo-code-panel {
+    grid-row: 2;
+  }
+  .sumo-editor {
+    height: 530px;
+  }
+}
+@media (max-width: 650px) {
+  .sumo-heading {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .sumo-facts {
+    justify-content: flex-start;
+    max-width: none;
+  }
+  .sumo-connect {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .sumo-identity,
+  .sumo-host-option,
+  .sumo-join-option {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .sumo-join-option {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding: 18px 0 0;
+  }
+  .sumo-rule-cards {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .sumo-ring {
+    height: 300px;
+  }
+  .sumo-players {
+    padding-inline: 10px;
+  }
+  .sumo-player-number {
+    display: none;
+  }
+  .sumo-arena-dialog {
+    width: calc(100vw - 16px);
+  }
+  .sumo-arena-dialog .sumo-stage-panel {
+    display: block;
+  }
+  .sumo-arena-dialog .sumo-arena-scene {
+    height: auto;
+  }
+  .sumo-arena-dialog .sumo-ring {
+    height: 300px;
+  }
+  .sumo-arena-dialog .sumo-clock {
+    position: static;
+  }
+}

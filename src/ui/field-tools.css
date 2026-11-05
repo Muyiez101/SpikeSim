@@ -1,0 +1,22 @@
+.field-tool-buttons,.field-actions{display:flex;gap:6px;flex-wrap:wrap;}
+.field-tool-buttons{padding:0 8px 8px;}
+.field-tool-buttons button,.field-tools-panel button,.challenge-panel button,.challenge-panel select{border:1px solid var(--line);border-radius:7px;background:var(--surface);color:var(--ink);padding:7px 10px;font-size:.74rem;min-height:34px;}
+.field-tool-buttons button[aria-pressed=true]{background:var(--primary);color:#fff;}
+.field-tools-panel{position:absolute;z-index:4;inset:10px auto 10px 10px;width:min(340px,calc(100% - 20px));overflow:auto;border:1px solid var(--line-strong);border-radius:10px;background:var(--surface);color:var(--ink);padding:12px;font-size:.8rem;box-shadow:0 4px 18px #0003;}
+.field-tools-panel header{display:flex;gap:8px;align-items:center;justify-content:space-between;}
+.field-tools-panel header strong{font-size:.86rem;}
+.field-tools-panel p{line-height:1.4;}
+.field-tools-panel form{display:flex;gap:6px;align-items:end;margin:12px 0;flex-wrap:wrap;}
+.field-tools-panel label,.challenge-panel label{display:grid;gap:4px;}
+.field-tools-panel input,.challenge-panel input{width:85px;border:1px solid var(--line);border-radius:6px;background:var(--surface-soft);color:var(--ink);padding:7px;}
+.measurement-result{display:grid;gap:6px;padding:10px;background:var(--surface-soft);border-radius:8px;}
+.measurement-result strong{font-size:1.1rem;}
+.mat-ruler ol{padding-left:20px;line-height:1.6;}
+.field-note{font-size:.72rem;color:var(--ink-soft);}
+.field-tools-panel fieldset{border:1px solid var(--line);border-radius:8px;margin:12px 0;display:flex;gap:6px;}
+.challenge-panel{display:grid;gap:9px;font-size:.78rem;}
+.challenge-panel p{margin:0;line-height:1.45;}
+.challenge-panel ul{margin:0;padding-left:18px;line-height:1.5;}
+.challenge-goal{display:flex;gap:8px;align-items:end;flex-wrap:wrap;}
+.challenge-result{padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface-soft);}
+.challenge-result.passed{border-color:var(--success);}

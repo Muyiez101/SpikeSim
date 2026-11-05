@@ -1,0 +1,161 @@
+{
+    "id":  "functions-2",
+    "name":  "Stair builder",
+    "checkedAt":  "2026-11-01T11:51:37.185Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "stopInZone",
+                                                   "zone":  "finish"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish inside finish"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "usesBlock",
+                                                   "block":  "procedures_callnoreturn"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run a My Blocks block"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "usesBlock",
+                                                   "block":  "controls_repeat_ext"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run a Repeat block"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "avoidCollisions"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Avoid collisions"
+                                  }
+                              ],
+                    "runSeconds":  15.31060000000149,
+                    "xp":  80
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Finish inside finish",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Run a My Blocks block",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Run a Repeat block",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Avoid collisions",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  15.31060000000149,
+                "robot":  {
+                              "x":  603.2297126111155,
+                              "y":  593.8793106490167,
+                              "heading":  0.027749616366479917,
+                              "wheels":  [
+                                             1938.8667230147437,
+                                             1881.0692972493139
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "white",
+                                "E":  488.49687836760427,
+                                "F":  0,
+                                "C":  1.8693433059694655
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "finish",
+                                    "tags":  [
+                                                 "finish"
+                                             ]
+                                }
+                   }
+               ],
+    "usedBlocks":  [
+                       "controls_repeat_ext",
+                       "procedures_callnoreturn",
+                       "spike_move",
+                       "spike_turn"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/functions-2.mp4"
+}

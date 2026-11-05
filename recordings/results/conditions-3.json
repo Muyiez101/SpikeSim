@@ -1,0 +1,158 @@
+{
+    "id":  "conditions-3",
+    "name":  "Yellow detour",
+    "checkedAt":  "2026-11-01T11:59:58.163Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "reachZone",
+                                                   "zone":  "yellow-zone"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Reach the yellow-zone zone"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "reachZone",
+                                                   "zone":  "green-zone"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Reach the green-zone zone"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "avoidZone",
+                                                   "zone":  "red-zone"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Never enter red-zone"
+                                  }
+                              ],
+                    "runSeconds":  15.30029999999702,
+                    "xp":  75
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Reach the yellow-zone zone",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Reach the green-zone zone",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Never enter red-zone",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  15.30029999999702,
+                "robot":  {
+                              "x":  515.4589001637919,
+                              "y":  461.62900884111883,
+                              "heading":  -3.1742477962828257,
+                              "wheels":  [
+                                             3061.706002098212,
+                                             2340.7281476478292
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "green",
+                                "E":  407.23196023467386,
+                                "F":  0,
+                                "C":  178.12414327655512
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "yellow-zone",
+                                    "tags":  [
+                                                 "yellow"
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "green-zone",
+                                    "tags":  [
+                                                 "green",
+                                                 "finish"
+                                             ]
+                                }
+                   }
+               ],
+    "usedBlocks":  [
+                       "spike_turn",
+                       "spike_move"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/conditions-3.mp4"
+}

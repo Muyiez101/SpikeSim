@@ -1,0 +1,1300 @@
+{
+  "schemaVersion": 1,
+  "note": "Project availability does not prove a successful live run. See results for measured outcomes and videos.",
+  "classroom": [
+    {
+      "id": "basics-1",
+      "name": "First steps",
+      "robot": "driving-base",
+      "project": "projects/basics-1.rlproj",
+      "checks": [
+        {
+          "type": "reachZone",
+          "zone": "landing-pad"
+        }
+      ]
+    },
+    {
+      "id": "basics-2",
+      "name": "Turn and go",
+      "robot": "driving-base",
+      "project": "projects/basics-2.rlproj",
+      "checks": [
+        {
+          "type": "reachZone",
+          "zone": "side-corridor"
+        }
+      ]
+    },
+    {
+      "id": "basics-3",
+      "name": "The long way round",
+      "robot": "driving-base",
+      "project": "projects/basics-3.rlproj",
+      "checks": [
+        {
+          "type": "reachZone",
+          "zone": "landing-pad"
+        },
+        {
+          "type": "avoidZone",
+          "zone": "side-corridor"
+        }
+      ]
+    },
+    {
+      "id": "basics-4",
+      "name": "Precision stop",
+      "robot": "driving-base",
+      "project": "projects/basics-4.rlproj",
+      "checks": [
+        {
+          "type": "reachZone",
+          "zone": "landing-pad"
+        },
+        {
+          "type": "stayInZone",
+          "zone": "landing-pad",
+          "durationMs": 2000
+        }
+      ]
+    },
+    {
+      "id": "conditions-1",
+      "name": "Green means go",
+      "robot": "driving-base",
+      "project": "projects/conditions-1.rlproj",
+      "checks": [
+        {
+          "type": "reachZone",
+          "zone": "green-zone"
+        },
+        {
+          "type": "avoidZone",
+          "zone": "red-zone"
+        }
+      ]
+    },
+    {
+      "id": "conditions-2",
+      "name": "Sensor detective",
+      "robot": "driving-base",
+      "project": "projects/conditions-2.rlproj",
+      "checks": [
+        {
+          "type": "reachZone",
+          "zone": "green-zone"
+        }
+      ]
+    },
+    {
+      "id": "conditions-3",
+      "name": "Yellow detour",
+      "robot": "driving-base",
+      "project": "projects/conditions-3.rlproj",
+      "checks": [
+        {
+          "type": "reachZone",
+          "zone": "yellow-zone"
+        },
+        {
+          "type": "reachZone",
+          "zone": "green-zone"
+        },
+        {
+          "type": "avoidZone",
+          "zone": "red-zone"
+        }
+      ]
+    },
+    {
+      "id": "loops-1",
+      "name": "Token collector",
+      "robot": "driving-base",
+      "project": "projects/loops-1.rlproj",
+      "checks": [
+        {
+          "type": "pushObjectWithTagToZone",
+          "tag": "token",
+          "zone": "home"
+        }
+      ]
+    },
+    {
+      "id": "loops-2",
+      "name": "Clean sweep",
+      "robot": "driving-base",
+      "project": "projects/loops-2.rlproj",
+      "checks": [
+        {
+          "type": "pushObjectToZone",
+          "object": "token-1",
+          "zone": "home"
+        },
+        {
+          "type": "pushObjectToZone",
+          "object": "token-2",
+          "zone": "home"
+        },
+        {
+          "type": "pushObjectToZone",
+          "object": "token-3",
+          "zone": "home"
+        },
+        {
+          "type": "reachZone",
+          "zone": "home"
+        }
+      ]
+    },
+    {
+      "id": "basics-5",
+      "name": "Say hello",
+      "robot": "driving-base",
+      "project": "projects/basics-5.rlproj",
+      "checks": [
+        {
+          "type": "matrixLit"
+        },
+        {
+          "type": "soundPlayed"
+        },
+        {
+          "type": "stopInZone",
+          "zone": "landing-pad"
+        }
+      ]
+    },
+    {
+      "id": "conditions-4",
+      "name": "Yellow light",
+      "robot": "driving-base",
+      "project": "projects/conditions-4.rlproj",
+      "checks": [
+        {
+          "type": "sensorAtEnd",
+          "port": "D",
+          "value": "yellow"
+        },
+        {
+          "type": "matrixLit"
+        }
+      ]
+    },
+    {
+      "id": "conditions-5",
+      "name": "Choose a lane",
+      "robot": "driving-base",
+      "project": "projects/conditions-5.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "controls_if"
+        },
+        {
+          "type": "usesBlock",
+          "block": "spike_color"
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        }
+      ]
+    },
+    {
+      "id": "loops-3",
+      "name": "Three pushes",
+      "robot": "driving-base",
+      "project": "projects/loops-3.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        },
+        {
+          "type": "pushObjectToZone",
+          "object": "token-1",
+          "zone": "home"
+        }
+      ]
+    },
+    {
+      "id": "loops-4",
+      "name": "Rhythm robot",
+      "robot": "driving-base",
+      "project": "projects/loops-4.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        },
+        {
+          "type": "matrixLit"
+        },
+        {
+          "type": "soundPlayed"
+        },
+        {
+          "type": "minTime",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "loops-5",
+      "name": "Count your steps",
+      "robot": "driving-base",
+      "project": "projects/loops-5.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "controls_for"
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        }
+      ]
+    },
+    {
+      "id": "patterns-1",
+      "name": "Square dance",
+      "robot": "driving-base",
+      "project": "projects/patterns-1.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        }
+      ]
+    },
+    {
+      "id": "patterns-2",
+      "name": "Triangle trail",
+      "robot": "driving-base",
+      "project": "projects/patterns-2.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        }
+      ]
+    },
+    {
+      "id": "patterns-3",
+      "name": "Star power",
+      "robot": "driving-base",
+      "project": "projects/patterns-3.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4",
+            "point-5"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        }
+      ]
+    },
+    {
+      "id": "patterns-4",
+      "name": "Hexagon walk",
+      "robot": "driving-base",
+      "project": "projects/patterns-4.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4",
+            "point-5",
+            "point-6"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        }
+      ]
+    },
+    {
+      "id": "patterns-5",
+      "name": "Octagon orbit",
+      "robot": "driving-base",
+      "project": "projects/patterns-5.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4",
+            "point-5",
+            "point-6",
+            "point-7",
+            "point-8"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        }
+      ]
+    },
+    {
+      "id": "sensors-1",
+      "name": "Stop at the wall",
+      "robot": "driving-base",
+      "project": "projects/sensors-1.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "spike_distance_compare"
+        },
+        {
+          "type": "sensorBetween",
+          "port": "E",
+          "min": 190,
+          "max": 200
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ]
+    },
+    {
+      "id": "sensors-2",
+      "name": "Color gate",
+      "robot": "driving-base",
+      "project": "projects/sensors-2.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "spike_color_is"
+        },
+        {
+          "type": "sensorAtEnd",
+          "port": "D",
+          "value": "red"
+        },
+        {
+          "type": "matrixLit"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ]
+    },
+    {
+      "id": "sensors-3",
+      "name": "Bump and back",
+      "robot": "driving-base",
+      "project": "projects/sensors-3.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "spike_force_pressed"
+        },
+        {
+          "type": "sensorSeen",
+          "port": "F",
+          "value": 10
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "matrixLit"
+        }
+      ]
+    },
+    {
+      "id": "sensors-4",
+      "name": "Gyro guard",
+      "robot": "driving-base",
+      "project": "projects/sensors-4.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "spike_heading"
+        },
+        {
+          "type": "headingWithin",
+          "degrees": 90,
+          "tolerance": 1
+        }
+      ]
+    },
+    {
+      "id": "sensors-5",
+      "name": "Time keeper",
+      "robot": "driving-base",
+      "project": "projects/sensors-5.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "spike_timer"
+        },
+        {
+          "type": "minTime",
+          "seconds": 3
+        },
+        {
+          "type": "matrixLit"
+        }
+      ]
+    },
+    {
+      "id": "mazes-1",
+      "name": "Corridor run",
+      "robot": "driving-base",
+      "project": "projects/mazes-1.rlproj",
+      "checks": [
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ]
+    },
+    {
+      "id": "mazes-2",
+      "name": "Around the corner",
+      "robot": "driving-base",
+      "project": "projects/mazes-2.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "stop-1",
+            "stop-2"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ]
+    },
+    {
+      "id": "mazes-3",
+      "name": "Deliver the parcel",
+      "robot": "driving-base",
+      "project": "projects/mazes-3.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "stop-1",
+            "stop-2",
+            "stop-3"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ]
+    },
+    {
+      "id": "mazes-4",
+      "name": "Zigzag avenue",
+      "robot": "driving-base",
+      "project": "projects/mazes-4.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "stop-1",
+            "stop-2",
+            "stop-3",
+            "stop-4"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ]
+    },
+    {
+      "id": "mazes-5",
+      "name": "Escape route",
+      "robot": "driving-base",
+      "project": "projects/mazes-5.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "stop-1",
+            "stop-2",
+            "stop-3"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "avoidZone",
+          "zone": "danger"
+        }
+      ]
+    },
+    {
+      "id": "functions-1",
+      "name": "A reusable corner",
+      "robot": "driving-base",
+      "project": "projects/functions-1.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "procedures_callnoreturn"
+        }
+      ]
+    },
+    {
+      "id": "functions-2",
+      "name": "Stair builder",
+      "robot": "driving-base",
+      "project": "projects/functions-2.rlproj",
+      "checks": [
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "usesBlock",
+          "block": "procedures_callnoreturn"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ]
+    },
+    {
+      "id": "functions-3",
+      "name": "A distance argument",
+      "robot": "driving-base",
+      "project": "projects/functions-3.rlproj",
+      "checks": [
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "usesBlock",
+          "block": "procedures_callnoreturn"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ]
+    },
+    {
+      "id": "functions-4",
+      "name": "Delivery counter",
+      "robot": "driving-base",
+      "project": "projects/functions-4.rlproj",
+      "checks": [
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "usesBlock",
+          "block": "procedures_callnoreturn"
+        },
+        {
+          "type": "variableEquals",
+          "name": "deliveries",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "functions-5",
+      "name": "Scale a route",
+      "robot": "driving-base",
+      "project": "projects/functions-5.rlproj",
+      "checks": [
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "usesBlock",
+          "block": "procedures_callnoreturn"
+        },
+        {
+          "type": "usesBlock",
+          "block": "math_arithmetic"
+        }
+      ]
+    },
+    {
+      "id": "champions-1",
+      "name": "Double delivery",
+      "robot": "driving-base",
+      "project": "projects/champions-1.rlproj",
+      "checks": [
+        {
+          "type": "pushObjectToZone",
+          "object": "parcel-1",
+          "zone": "finish"
+        },
+        {
+          "type": "pushObjectToZone",
+          "object": "parcel-2",
+          "zone": "finish"
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        }
+      ]
+    },
+    {
+      "id": "champions-2",
+      "name": "Slalom route",
+      "robot": "driving-base",
+      "project": "projects/champions-2.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "stop-1",
+            "stop-2",
+            "stop-3"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "avoidZone",
+          "zone": "danger"
+        }
+      ]
+    },
+    {
+      "id": "champions-3",
+      "name": "Precision champion",
+      "robot": "driving-base",
+      "project": "projects/champions-3.rlproj",
+      "checks": [
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "stayInZone",
+          "zone": "finish",
+          "durationMs": 3000
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ]
+    },
+    {
+      "id": "champions-4",
+      "name": "Patrol and signal",
+      "robot": "driving-base",
+      "project": "projects/champions-4.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        },
+        {
+          "type": "matrixLit"
+        },
+        {
+          "type": "soundPlayed"
+        }
+      ]
+    },
+    {
+      "id": "champions-5",
+      "name": "Red alert",
+      "robot": "driving-base",
+      "project": "projects/champions-5.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "spike_color_is"
+        },
+        {
+          "type": "sensorAtEnd",
+          "port": "D",
+          "value": "red"
+        },
+        {
+          "type": "matrixLit"
+        },
+        {
+          "type": "soundPlayed"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ]
+    },
+    {
+      "id": "champions-6",
+      "name": "Robot showcase",
+      "robot": "driving-base",
+      "project": "projects/champions-6.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "procedures_callnoreturn"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        },
+        {
+          "type": "matrixLit"
+        },
+        {
+          "type": "soundPlayed"
+        }
+      ]
+    }
+  ],
+  "attachmentPractice": [
+    {
+      "id": "practice-push",
+      "name": "Push a cargo crate",
+      "robot": "pusher",
+      "project": "projects/practice-push.rlproj"
+    },
+    {
+      "id": "practice-lift",
+      "name": "Lift a raised pallet",
+      "robot": "forklift",
+      "project": "projects/practice-lift.rlproj"
+    },
+    {
+      "id": "practice-lever",
+      "name": "Turn a hinged gate",
+      "robot": "pusher",
+      "project": "projects/practice-lever.rlproj"
+    },
+    {
+      "id": "practice-carry",
+      "name": "Collect and deliver",
+      "robot": "scoop",
+      "project": "projects/practice-carry.rlproj"
+    },
+    {
+      "id": "practice-park",
+      "name": "Measure, turn and park",
+      "robot": "pusher",
+      "project": "projects/practice-park.rlproj"
+    }
+  ],
+  "practice": [
+    {
+      "id": "world:grid",
+      "name": "Grid Map (20cm)"
+    },
+    {
+      "id": "world:lineFollowing:simple",
+      "name": "Line Following Challenges: Simple Curves",
+      "project": "projects/line-simple.rlproj",
+      "resultId": "line-simple",
+      "scope": "Default course recorded"
+    },
+    {
+      "id": "world:lineFollowing:sharp",
+      "name": "Line Following Challenges: Sharp Turns"
+    },
+    {
+      "id": "world:lineFollowing:gaps1",
+      "name": "Line Following Challenges: Gaps 1",
+      "project": "projects/line-gaps1.rlproj",
+      "resultId": "line-gaps1",
+      "scope": "Default course recorded"
+    },
+    {
+      "id": "world:lineFollowing:gaps2",
+      "name": "Line Following Challenges: Gaps 2"
+    },
+    {
+      "id": "world:lineFollowing:obstacles1",
+      "name": "Line Following Challenges: Obstacles 1"
+    },
+    {
+      "id": "world:lineFollowing:obstacles2",
+      "name": "Line Following Challenges: Obstacles 2",
+      "project": "Obstacle-2-line-follower.rlproj",
+      "resultId": "obstacles-2",
+      "scope": "Left–right–left layout recorded"
+    },
+    {
+      "id": "world:lineFollowing:obstacles3",
+      "name": "Line Following Challenges: Obstacles 3"
+    },
+    {
+      "id": "world:lineFollowing:obstacles4",
+      "name": "Line Following Challenges: Obstacles 4"
+    },
+    {
+      "id": "world:lineFollowing:junctions1",
+      "name": "Line Following Challenges: Junctions 1"
+    },
+    {
+      "id": "world:lineFollowing:junctions2",
+      "name": "Line Following Challenges: Junctions 2"
+    },
+    {
+      "id": "world:gyro:straight",
+      "name": "Gyro Challenges: Straight Run"
+    },
+    {
+      "id": "world:gyro:square",
+      "name": "Gyro Challenges: Square Loops"
+    },
+    {
+      "id": "world:gyro:randomDirection",
+      "name": "Gyro Challenges: Random Direction"
+    },
+    {
+      "id": "world:paintball:firingRange",
+      "name": "Paintball Challenges: Firing Range"
+    },
+    {
+      "id": "world:paintball:variableRange",
+      "name": "Paintball Challenges: Variable Range"
+    },
+    {
+      "id": "world:paintball:findTarget",
+      "name": "Paintball Challenges: Find the Target"
+    },
+    {
+      "id": "world:paintball:highLow",
+      "name": "Paintball Challenges: High and Low"
+    },
+    {
+      "id": "world:paintball:movingTarget1",
+      "name": "Paintball Challenges: Moving Target 1"
+    },
+    {
+      "id": "world:paintball:movingTarget2",
+      "name": "Paintball Challenges: Moving Target 2"
+    },
+    {
+      "id": "world:sumo:fixedDummies",
+      "name": "Sumo Challenges: Fixed Dummies"
+    },
+    {
+      "id": "world:sumo:randomDummies",
+      "name": "Sumo Challenges: Random Dummies"
+    },
+    {
+      "id": "world:sumo:randomNoRed",
+      "name": "Sumo Challenges: No Border"
+    },
+    {
+      "id": "world:sumo:fixedPillars",
+      "name": "Sumo Challenges: Pillars"
+    },
+    {
+      "id": "world:fireRescue:grocers",
+      "name": "Fire Rescue: Fire at the Grocers"
+    },
+    {
+      "id": "world:fireRescue:warehouse",
+      "name": "Fire Rescue: Warehouse Fire"
+    },
+    {
+      "id": "world:maze:perfect",
+      "name": "Maze Map: Perfect"
+    },
+    {
+      "id": "world:maze:imperfect",
+      "name": "Maze Map: Imperfect"
+    },
+    {
+      "id": "world:football",
+      "name": "Football Arena"
+    },
+    {
+      "id": "world:arena:island",
+      "name": "Multi-Robot Arena: Paintball Islands"
+    },
+    {
+      "id": "world:arena:collector",
+      "name": "Multi-Robot Arena: Color Collector"
+    },
+    {
+      "id": "world:arena:sumo",
+      "name": "Multi-Robot Arena: Sumo"
+    }
+  ],
+  "competition": [
+    {
+      "id": "worlds/missions/WRO/WRO-2026-Elementary.json?v=3f6ac0f5",
+      "name": "2026 WRO (Elementary)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2026-Junior.json?v=ddc3454b",
+      "name": "2026 WRO (Junior)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2026-Senior.json?v=214a3821",
+      "name": "2026 WRO (Senior)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2025.json?v=00d2ba8a",
+      "name": "2025 FLL (Unearthed)",
+      "content": "mat-only",
+      "status": "needs-mission-models"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2025-Sport.json?v=8a1dacc8",
+      "name": "2025 WRO (Sport)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2025-Future-Engineer-Simple.json?v=525a6c19",
+      "name": "2025 WRO (Future Engineer Simple)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2025-Future-Engineer-Open.json?v=a63f9afa",
+      "name": "2025 WRO (Future Engineer Open)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2025-Future-Engineer-Obstacle.json?v=0da11813",
+      "name": "2025 WRO (Future Engineer Obstacle)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2025-Elementary.json?v=c85eb989",
+      "name": "2025 WRO (Elementary)",
+      "content": "mat-only",
+      "status": "needs-mission-models"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2025-Junior.json?v=97f15769",
+      "name": "2025 WRO (Junior)",
+      "content": "mat-only",
+      "status": "needs-mission-models"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2025-Senior.json?v=9a88d813",
+      "name": "2025 WRO (Senior)",
+      "content": "mat-only",
+      "status": "needs-mission-models"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2024.json?v=0cc112b7",
+      "name": "2024 FLL (Submerged)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2024-Elementary.json?v=61a7112b",
+      "name": "2024 WRO (Elementary)",
+      "content": "mat-only",
+      "status": "needs-mission-models"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2024-Junior.json?v=8e6277b9",
+      "name": "2024 WRO (Junior)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2024-Senior.json?v=af9c72fc",
+      "name": "2024 WRO (Senior)",
+      "content": "mat-only",
+      "status": "needs-mission-models"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2023.json?v=02cde046",
+      "name": "2023 FLL (Masterpiece)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2023-Elementary.json?v=bbda7305",
+      "name": "2023 WRO (Elementary)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2023-Junior.json?v=888f71dc",
+      "name": "2023 WRO (Junior)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2023-Senior.json?v=78beee40",
+      "name": "2023 WRO (Senior) No Models",
+      "content": "mat-only",
+      "status": "needs-mission-models"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2022.json?v=8d10813a",
+      "name": "2022 FLL (Superpowered)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2022-Regular-Elementary-1.json?v=a2936cb0",
+      "name": "2022 WRO (Elementary)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2022-Regular-Elementary-2.json?v=cc4e3604",
+      "name": "2022 WRO (Elementary) Randomization 2",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2022-Regular-Junior.json?v=d3b135ba",
+      "name": "2022 WRO (Junior)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2022-Regular-Senior.json?v=b6e40d9d",
+      "name": "2022 WRO (Senior)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2021.json?v=b31b8262",
+      "name": "2021 FLL (Cargo Connect)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2021-Regular-Elementary.json?v=45448002",
+      "name": "2021 WRO (Elementary)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2021-Regular-Junior.json?v=151e42f8",
+      "name": "2021 WRO (Junior)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2021-Regular-Senior.json?v=b2fed43c",
+      "name": "2021 WRO (Senior)",
+      "content": "mat-only",
+      "status": "needs-mission-models"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2020v2.json?v=83106bf2",
+      "name": "2020 FLL (RePLAY v2)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2020.json?v=eeac2988",
+      "name": "2020 FLL (RePLAY)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2020-Regular-Elementary.json?v=136a82cb",
+      "name": "2020 WRO (Elementary)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2020-Regular-Junior.json?v=6f98672b",
+      "name": "2020 WRO (Junior)",
+      "content": "mat-only",
+      "status": "needs-mission-models"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2019.json?v=36e51441",
+      "name": "2019 FLL (City Shaper)",
+      "content": "mat-only",
+      "status": "needs-mission-models"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2019-Regular-Elementary.json?v=a22f9c7b",
+      "name": "2019 WRO (Elementary)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2019-Regular-Junior.json?v=deccceee",
+      "name": "2019 WRO (Junior)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2018.json?v=55341767",
+      "name": "2018 FLL (Into Orbit)",
+      "content": "mat-only",
+      "status": "needs-mission-models"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2018-Regular-Elementary.json?v=111cdfb9",
+      "name": "2018 WRO (Elementary)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2018-Regular-Junior.json?v=54491949",
+      "name": "2018 WRO (Junior)",
+      "content": "mission-models",
+      "status": "needs-live-solution-and-scoring"
+    }
+  ]
+}

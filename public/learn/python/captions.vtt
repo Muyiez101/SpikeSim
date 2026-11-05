@@ -1,0 +1,13 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.700
+Start with the robot facing the landing pad. The text instruction and the move block describe the same trip.
+
+2
+00:00:00.700 --> 00:00:04.960
+The robot moves across the mat. In the code, 58 is the distance and speed=70 is the requested speed.
+
+3
+00:00:04.960 --> 00:00:05.760
+The robot has stopped inside the pad. Changing code generated from a block changes the instruction, not the meaning of centimetres.

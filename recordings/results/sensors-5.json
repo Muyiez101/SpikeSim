@@ -1,0 +1,142 @@
+﻿{
+    "id":  "sensors-5",
+    "name":  "Time keeper",
+    "checkedAt":  "2026-11-01T11:44:49.085Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "usesBlock",
+                                                   "block":  "spike_timer"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run a Timer block"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "minTime",
+                                                   "seconds":  3
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run for at least 3 s"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "matrixLit"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Show an image on the hub"
+                                  }
+                              ],
+                    "runSeconds":  3.1076999999955297,
+                    "xp":  75
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Run a Timer block",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Run for at least 3 s",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Show an image on the hub",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  3.1076999999955297,
+                "robot":  {
+                              "x":  139.99716086520488,
+                              "y":  299.99917255880416,
+                              "heading":  0.000023097044837851062,
+                              "wheels":  [
+                                             0.0009060014386405146,
+                                             -0.002440969825579703
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               100,
+                                               0,
+                                               100,
+                                               0
+                                           ],
+                                           [
+                                               100,
+                                               100,
+                                               100,
+                                               100,
+                                               100
+                                           ],
+                                           [
+                                               100,
+                                               100,
+                                               100,
+                                               100,
+                                               100
+                                           ],
+                                           [
+                                               0,
+                                               100,
+                                               100,
+                                               100,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               100,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "white",
+                                "E":  951.5050359140562,
+                                "F":  0,
+                                "C":  0.0014969509741291631
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+
+               ],
+    "usedBlocks":  [
+                       "spike_image",
+                       "controls_whileUntil",
+                       "logic_compare",
+                       "spike_timer",
+                       "spike_wait"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/sensors-5.mp4"
+}

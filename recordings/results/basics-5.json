@@ -1,0 +1,143 @@
+{
+  "id": "basics-5",
+  "name": "Say hello",
+  "checkedAt": "2026-11-01T11:33:40.977Z",
+  "status": "complete",
+  "verdict": {
+    "passed": true,
+    "stars": 3,
+    "goals": [
+      {
+        "goal": {
+          "type": "matrixLit"
+        },
+        "passed": true,
+        "label": "Show an image on the hub"
+      },
+      {
+        "goal": {
+          "type": "soundPlayed"
+        },
+        "passed": true,
+        "label": "Play a tone"
+      },
+      {
+        "goal": {
+          "type": "stopInZone",
+          "zone": "landing-pad"
+        },
+        "passed": true,
+        "label": "Finish inside landing-pad"
+      }
+    ],
+    "runSeconds": 3.32179999999702,
+    "xp": 75
+  },
+  "uiOutcome": {
+    "stars": 3,
+    "goals": [
+      {
+        "label": "Show an image on the hub",
+        "passed": true
+      },
+      {
+        "label": "Play a tone",
+        "passed": true
+      },
+      {
+        "label": "Finish inside landing-pad",
+        "passed": true
+      }
+    ]
+  },
+  "errors": [],
+  "end": {
+    "t": 3.32179999999702,
+    "robot": {
+      "x": 705.0931339811855,
+      "y": 297.920604517828,
+      "heading": -0.0015591805402481928,
+      "wheels": [
+        1194.8083863419522,
+        1184.4493791114323
+      ],
+      "arms": []
+    },
+    "objects": [],
+    "hub": {
+      "matrix": [
+        [
+          0,
+          100,
+          0,
+          100,
+          0
+        ],
+        [
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        [
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        [
+          0,
+          100,
+          100,
+          100,
+          0
+        ],
+        [
+          0,
+          0,
+          100,
+          0,
+          0
+        ]
+      ],
+      "statusColor": "#22c55e",
+      "distanceLights": {},
+      "text": ""
+    },
+    "sensors": {
+      "D": "white",
+      "E": 186.40852343906363,
+      "F": 0,
+      "C": -0.05928480268072178
+    },
+    "events": []
+  },
+  "events": [
+    {
+      "type": "sound",
+      "data": {
+        "t": 0.0037999999970197676,
+        "frequency": 440,
+        "durationMs": 300
+      }
+    },
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "landing-pad",
+        "tags": [
+          "finish"
+        ]
+      }
+    }
+  ],
+  "usedBlocks": [
+    "spike_image",
+    "spike_beep",
+    "spike_move"
+  ],
+  "variables": {},
+  "video": "videos/basics-5.mp4"
+}

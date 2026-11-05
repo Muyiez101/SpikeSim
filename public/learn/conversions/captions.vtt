@@ -1,0 +1,13 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.700
+The robot starts before a 58 cm trip. That length is also 580 mm or 0.58 m.
+
+2
+00:00:00.700 --> 00:00:04.960
+The wheels rotate to carry the robot forward. Wheel rotation and the robot’s heading are different measurements.
+
+3
+00:00:04.960 --> 00:00:05.760
+The robot stops after the trip. A wheel-distance calculation is a starting estimate; real slip can change the result.

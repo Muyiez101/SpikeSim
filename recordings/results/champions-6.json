@@ -1,0 +1,246 @@
+{
+    "id":  "champions-6",
+    "name":  "Robot showcase",
+    "checkedAt":  "2026-11-01T11:54:37.826Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "visitInOrder",
+                                                   "zones":  [
+                                                                 "point-1",
+                                                                 "point-2",
+                                                                 "point-3",
+                                                                 "point-4"
+                                                             ]
+                                               },
+                                      "passed":  true,
+                                      "label":  "Visit in order: point-1 â†’ point-2 â†’ point-3 â†’ point-4"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "stopInZone",
+                                                   "zone":  "finish"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish inside finish"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "avoidCollisions"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Avoid collisions"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "usesBlock",
+                                                   "block":  "procedures_callnoreturn"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run a My Blocks block"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "usesBlock",
+                                                   "block":  "controls_repeat_ext"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run a Repeat block"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "matrixLit"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Show an image on the hub"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "soundPlayed"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Play a tone"
+                                  }
+                              ],
+                    "runSeconds":  12.874,
+                    "xp":  95
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Visit in order: point-1 â†’ point-2 â†’ point-3 â†’ point-4",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Finish inside finish",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Avoid collisions",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Run a My Blocks block",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Run a Repeat block",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Show an image on the hub",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Play a tone",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  12.874,
+                "robot":  {
+                              "x":  423.9212019170503,
+                              "y":  277.60631400353617,
+                              "heading":  0.04562564426285476,
+                              "wheels":  [
+                                             2747.2276977482484,
+                                             1399.7369678022258
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               100,
+                                               0,
+                                               100,
+                                               0
+                                           ],
+                                           [
+                                               100,
+                                               100,
+                                               100,
+                                               100,
+                                               100
+                                           ],
+                                           [
+                                               100,
+                                               100,
+                                               100,
+                                               100,
+                                               100
+                                           ],
+                                           [
+                                               0,
+                                               100,
+                                               100,
+                                               100,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               100,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "white",
+                                "E":  668.1692394746124,
+                                "F":  0,
+                                "C":  362.61293948530675
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "finish",
+                                    "tags":  [
+                                                 "finish"
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "point-4",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "point-1",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "point-2",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "point-3",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "sound",
+                       "data":  {
+                                    "t":  12.51110000000149,
+                                    "frequency":  440,
+                                    "durationMs":  300
+                                }
+                   }
+               ],
+    "usedBlocks":  [
+                       "controls_repeat_ext",
+                       "procedures_callnoreturn",
+                       "spike_move",
+                       "spike_turn",
+                       "spike_image",
+                       "spike_beep"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/champions-6.mp4"
+}

@@ -1,0 +1,15 @@
+body.student-builder>header{display:none!important;}
+body.student-builder main{height:100%;padding-top:0;}
+body.student-builder .fileMenu,body.student-builder .robotMenu,body.student-builder .worldMenu{display:none!important;}
+body.student-builder nav{background:#262644;color:#fff;}
+body.student-builder .componentsWindow,body.student-builder .objectsWindow,body.student-builder .settingsWindow{font-size:14px;}
+body.student-builder .componentsWindow,body.student-builder .objectsWindow{max-width:22%;}
+body.student-builder .settingsWindow{width:30%;max-width:330px;}
+body.student-builder .settingsArea{overflow-wrap:anywhere;}
+body.student-builder .gearsIcon{display:none!important;}
+body.student-builder .componentsWindow,body.student-builder .objectsWindow,body.student-builder .settingsWindow{background:#f7f8fdee;color:#202b46;border:1px solid #c9d0e3;border-radius:10px;}
+body.student-builder .componentsList li.selected,body.student-builder .objectsList li.selected{background:#dcd6ff;color:#302264;}
+body.student-builder .buttons>div{color:#302264;border-color:#8d80c4;background:#fff;cursor:pointer;}
+body.student-builder .settingsWindow .configurationTitle,body.student-builder .settingsWindow .componentName{color:#202b46;}
+body.student-builder nav li{color:#e6e9f7;}
+body.student-builder nav li.active{color:#302264;}

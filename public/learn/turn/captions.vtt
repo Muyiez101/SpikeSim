@@ -1,0 +1,13 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.700
+The robot begins facing across the mat. Forward means the direction its front faces.
+
+2
+00:00:00.700 --> 00:00:06.400
+At the corner it turns left. The example uses −90°, changing heading before the next move.
+
+3
+00:00:06.400 --> 00:00:07.204
+The final short move follows the new heading into the upper marked area.

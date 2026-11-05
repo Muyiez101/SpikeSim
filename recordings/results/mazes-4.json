@@ -1,0 +1,188 @@
+﻿{
+    "id":  "mazes-4",
+    "name":  "Zigzag avenue",
+    "checkedAt":  "2026-11-01T11:45:58.290Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "visitInOrder",
+                                                   "zones":  [
+                                                                 "stop-1",
+                                                                 "stop-2",
+                                                                 "stop-3",
+                                                                 "stop-4"
+                                                             ]
+                                               },
+                                      "passed":  true,
+                                      "label":  "Visit in order: stop-1 â†’ stop-2 â†’ stop-3 â†’ stop-4"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "stopInZone",
+                                                   "zone":  "finish"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish inside finish"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "avoidCollisions"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Avoid collisions"
+                                  }
+                              ],
+                    "runSeconds":  11.29619999999553,
+                    "xp":  75
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Visit in order: stop-1 â†’ stop-2 â†’ stop-3 â†’ stop-4",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Finish inside finish",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Avoid collisions",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  11.29619999999553,
+                "robot":  {
+                              "x":  823.0424063544936,
+                              "y":  732.6032976887245,
+                              "heading":  1.5516646828295961,
+                              "wheels":  [
+                                             2932.18353563349,
+                                             2539.847337989376
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "white",
+                                "E":  158.94502575685476,
+                                "F":  0,
+                                "C":  88.99061252358516
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "stop-1",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "stop-2",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "stop-3",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "finish",
+                                    "tags":  [
+                                                 "finish"
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "stop-4",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   }
+               ],
+    "usedBlocks":  [
+                       "spike_move",
+                       "spike_turn"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/mazes-4.mp4"
+}

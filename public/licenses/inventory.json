@@ -1,0 +1,583 @@
+{
+  "source": "package-lock.json; installed production packages",
+  "electron": "45.0.0",
+  "components": [
+    {
+      "name": "@asamuzakjp/css-color",
+      "version": "3.2.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/_asamuzakjp_css-color_3.2.0/LICENSE"
+      ]
+    },
+    {
+      "name": "@csstools/color-helpers",
+      "version": "5.1.0",
+      "license": "MIT-0",
+      "files": [
+        "public/licenses/npm/_csstools_color-helpers_5.1.0/LICENSE.md"
+      ]
+    },
+    {
+      "name": "@csstools/css-calc",
+      "version": "2.1.4",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/_csstools_css-calc_2.1.4/LICENSE.md"
+      ]
+    },
+    {
+      "name": "@csstools/css-color-parser",
+      "version": "3.1.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/_csstools_css-color-parser_3.1.0/LICENSE.md"
+      ]
+    },
+    {
+      "name": "@csstools/css-parser-algorithms",
+      "version": "3.0.5",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/_csstools_css-parser-algorithms_3.0.5/LICENSE.md"
+      ]
+    },
+    {
+      "name": "@csstools/css-tokenizer",
+      "version": "3.0.4",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/_csstools_css-tokenizer_3.0.4/LICENSE.md"
+      ]
+    },
+    {
+      "name": "@dimforge/rapier2d-deterministic-compat",
+      "version": "0.21.0",
+      "license": "Apache-2.0",
+      "files": [
+        "public/licenses/npm/_dimforge_rapier2d-deterministic-compat_0.21.0/LICENSE"
+      ]
+    },
+    {
+      "name": "@fontsource/atkinson-hyperlegible",
+      "version": "5.3.0",
+      "license": "OFL-1.1",
+      "files": [
+        "public/licenses/npm/_fontsource_atkinson-hyperlegible_5.3.0/LICENSE"
+      ]
+    },
+    {
+      "name": "@fontsource/jetbrains-mono",
+      "version": "5.3.0",
+      "license": "OFL-1.1",
+      "files": [
+        "public/licenses/npm/_fontsource_jetbrains-mono_5.3.0/LICENSE"
+      ]
+    },
+    {
+      "name": "@fontsource/lexend",
+      "version": "5.3.0",
+      "license": "OFL-1.1",
+      "files": [
+        "public/licenses/npm/_fontsource_lexend_5.3.0/LICENSE"
+      ]
+    },
+    {
+      "name": "@types/react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/_types_react_19.3.0/LICENSE"
+      ]
+    },
+    {
+      "name": "agent-base",
+      "version": "7.1.4",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/agent-base_7.1.4/LICENSE"
+      ]
+    },
+    {
+      "name": "asynckit",
+      "version": "0.4.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/asynckit_0.4.0/LICENSE"
+      ]
+    },
+    {
+      "name": "blockly",
+      "version": "11.2.2",
+      "license": "Apache-2.0",
+      "files": [
+        "public/licenses/npm/blockly_11.2.2/Apache-2.0.txt",
+        "public/licenses/npm/blockly_11.2.2/Blockly-NOTICE.txt"
+      ]
+    },
+    {
+      "name": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/call-bind-apply-helpers_1.0.2/LICENSE"
+      ]
+    },
+    {
+      "name": "combined-stream",
+      "version": "1.0.8",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/combined-stream_1.0.8/License"
+      ]
+    },
+    {
+      "name": "cssstyle",
+      "version": "4.6.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/cssstyle_4.6.0/LICENSE"
+      ]
+    },
+    {
+      "name": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/csstype_3.2.3/LICENSE"
+      ]
+    },
+    {
+      "name": "data-urls",
+      "version": "5.0.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/data-urls_5.0.0/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "debug",
+      "version": "4.4.3",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/debug_4.4.3/LICENSE"
+      ]
+    },
+    {
+      "name": "decimal.js",
+      "version": "10.6.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/decimal.js_10.6.0/LICENCE.md"
+      ]
+    },
+    {
+      "name": "delayed-stream",
+      "version": "1.0.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/delayed-stream_1.0.0/License"
+      ]
+    },
+    {
+      "name": "dunder-proto",
+      "version": "1.0.1",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/dunder-proto_1.0.1/LICENSE"
+      ]
+    },
+    {
+      "name": "entities",
+      "version": "6.0.1",
+      "license": "BSD-2-Clause",
+      "files": [
+        "public/licenses/npm/entities_6.0.1/LICENSE"
+      ]
+    },
+    {
+      "name": "es-define-property",
+      "version": "1.0.1",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/es-define-property_1.0.1/LICENSE"
+      ]
+    },
+    {
+      "name": "es-errors",
+      "version": "1.3.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/es-errors_1.3.0/LICENSE"
+      ]
+    },
+    {
+      "name": "es-object-atoms",
+      "version": "1.1.2",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/es-object-atoms_1.1.2/LICENSE"
+      ]
+    },
+    {
+      "name": "es-set-tostringtag",
+      "version": "2.1.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/es-set-tostringtag_2.1.0/LICENSE"
+      ]
+    },
+    {
+      "name": "form-data",
+      "version": "4.0.6",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/form-data_4.0.6/License"
+      ]
+    },
+    {
+      "name": "function-bind",
+      "version": "1.1.2",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/function-bind_1.1.2/LICENSE"
+      ]
+    },
+    {
+      "name": "get-intrinsic",
+      "version": "1.3.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/get-intrinsic_1.3.0/LICENSE"
+      ]
+    },
+    {
+      "name": "get-proto",
+      "version": "1.0.1",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/get-proto_1.0.1/LICENSE"
+      ]
+    },
+    {
+      "name": "gopd",
+      "version": "1.2.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/gopd_1.2.0/LICENSE"
+      ]
+    },
+    {
+      "name": "has-symbols",
+      "version": "1.1.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/has-symbols_1.1.0/LICENSE"
+      ]
+    },
+    {
+      "name": "has-tostringtag",
+      "version": "1.0.2",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/has-tostringtag_1.0.2/LICENSE"
+      ]
+    },
+    {
+      "name": "hasown",
+      "version": "2.0.4",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/hasown_2.0.4/LICENSE"
+      ]
+    },
+    {
+      "name": "html-encoding-sniffer",
+      "version": "4.0.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/html-encoding-sniffer_4.0.0/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "http-proxy-agent",
+      "version": "7.0.2",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/http-proxy-agent_7.0.2/LICENSE"
+      ]
+    },
+    {
+      "name": "https-proxy-agent",
+      "version": "7.0.6",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/https-proxy-agent_7.0.6/LICENSE"
+      ]
+    },
+    {
+      "name": "iconv-lite",
+      "version": "0.6.3",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/iconv-lite_0.6.3/LICENSE"
+      ]
+    },
+    {
+      "name": "is-potential-custom-element-name",
+      "version": "1.0.1",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/is-potential-custom-element-name_1.0.1/LICENSE-MIT.txt"
+      ]
+    },
+    {
+      "name": "jsdom",
+      "version": "25.0.1",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/jsdom_25.0.1/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "lru-cache",
+      "version": "10.4.3",
+      "license": "ISC",
+      "files": [
+        "public/licenses/npm/lru-cache_10.4.3/LICENSE"
+      ]
+    },
+    {
+      "name": "lucide-react",
+      "version": "1.61.0",
+      "license": "ISC",
+      "files": [
+        "public/licenses/npm/lucide-react_1.61.0/LICENSE"
+      ]
+    },
+    {
+      "name": "math-intrinsics",
+      "version": "1.1.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/math-intrinsics_1.1.0/LICENSE"
+      ]
+    },
+    {
+      "name": "mime-db",
+      "version": "1.52.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/mime-db_1.52.0/LICENSE"
+      ]
+    },
+    {
+      "name": "mime-types",
+      "version": "2.1.35",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/mime-types_2.1.35/LICENSE"
+      ]
+    },
+    {
+      "name": "ms",
+      "version": "2.1.3",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/ms_2.1.3/license.md"
+      ]
+    },
+    {
+      "name": "nwsapi",
+      "version": "2.2.28",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/nwsapi_2.2.28/LICENSE"
+      ]
+    },
+    {
+      "name": "parse5",
+      "version": "7.3.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/parse5_7.3.0/LICENSE"
+      ]
+    },
+    {
+      "name": "punycode",
+      "version": "2.3.1",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/punycode_2.3.1/LICENSE-MIT.txt"
+      ]
+    },
+    {
+      "name": "react",
+      "version": "19.3.1",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/react_19.3.1/LICENSE"
+      ]
+    },
+    {
+      "name": "react-dom",
+      "version": "19.3.1",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/react-dom_19.3.1/LICENSE"
+      ]
+    },
+    {
+      "name": "rrweb-cssom",
+      "version": "0.7.1",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/rrweb-cssom_0.7.1/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "rrweb-cssom",
+      "version": "0.8.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/rrweb-cssom_0.8.0/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "safer-buffer",
+      "version": "2.1.2",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/safer-buffer_2.1.2/LICENSE"
+      ]
+    },
+    {
+      "name": "saxes",
+      "version": "6.0.0",
+      "license": "ISC",
+      "files": [
+        "public/licenses/npm/saxes_6.0.0/LICENSE"
+      ]
+    },
+    {
+      "name": "scheduler",
+      "version": "0.28.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/scheduler_0.28.0/LICENSE"
+      ]
+    },
+    {
+      "name": "symbol-tree",
+      "version": "3.2.4",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/symbol-tree_3.2.4/LICENSE"
+      ]
+    },
+    {
+      "name": "tldts",
+      "version": "6.1.86",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/tldts_6.1.86/LICENSE"
+      ]
+    },
+    {
+      "name": "tldts-core",
+      "version": "6.1.86",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/tldts-core_6.1.86/LICENSE"
+      ]
+    },
+    {
+      "name": "tough-cookie",
+      "version": "5.1.2",
+      "license": "BSD-3-Clause",
+      "files": [
+        "public/licenses/npm/tough-cookie_5.1.2/LICENSE"
+      ]
+    },
+    {
+      "name": "tr46",
+      "version": "5.1.1",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/tr46_5.1.1/LICENSE.md"
+      ]
+    },
+    {
+      "name": "w3c-xmlserializer",
+      "version": "5.0.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/w3c-xmlserializer_5.0.0/LICENSE.md"
+      ]
+    },
+    {
+      "name": "webidl-conversions",
+      "version": "7.0.0",
+      "license": "BSD-2-Clause",
+      "files": [
+        "public/licenses/npm/webidl-conversions_7.0.0/LICENSE.md"
+      ]
+    },
+    {
+      "name": "whatwg-encoding",
+      "version": "3.1.1",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/whatwg-encoding_3.1.1/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "whatwg-mimetype",
+      "version": "4.0.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/whatwg-mimetype_4.0.0/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "whatwg-url",
+      "version": "14.2.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/whatwg-url_14.2.0/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "ws",
+      "version": "8.22.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/ws_8.22.0/LICENSE"
+      ]
+    },
+    {
+      "name": "xml-name-validator",
+      "version": "5.0.0",
+      "license": "Apache-2.0",
+      "files": [
+        "public/licenses/npm/xml-name-validator_5.0.0/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "xmlchars",
+      "version": "2.2.0",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/xmlchars_2.2.0/LICENSE"
+      ]
+    },
+    {
+      "name": "zod",
+      "version": "4.6.7",
+      "license": "MIT",
+      "files": [
+        "public/licenses/npm/zod_4.6.7/LICENSE"
+      ]
+    }
+  ]
+}

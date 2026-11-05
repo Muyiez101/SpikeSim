@@ -1,0 +1,164 @@
+{
+    "id":  "sensors-2",
+    "name":  "Color gate",
+    "checkedAt":  "2026-11-01T12:01:39.516Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "usesBlock",
+                                                   "block":  "spike_color_is"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run a spike_color_is block"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "sensorAtEnd",
+                                                   "port":  "D",
+                                                   "value":  "red"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish with port D reading red"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "matrixLit"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Show an image on the hub"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "avoidCollisions"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Avoid collisions"
+                                  }
+                              ],
+                    "runSeconds":  3.7096999999955296,
+                    "xp":  80
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Run a spike_color_is block",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Finish with port D reading red",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Show an image on the hub",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Avoid collisions",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  3.7096999999955296,
+                "robot":  {
+                              "x":  456.07305127642263,
+                              "y":  294.09781466251985,
+                              "heading":  -0.010331249714105565,
+                              "wheels":  [
+                                             645.7587074856852,
+                                             645.7762873464288
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               100,
+                                               0,
+                                               100,
+                                               0
+                                           ],
+                                           [
+                                               100,
+                                               100,
+                                               100,
+                                               100,
+                                               100
+                                           ],
+                                           [
+                                               100,
+                                               100,
+                                               100,
+                                               100,
+                                               100
+                                           ],
+                                           [
+                                               0,
+                                               100,
+                                               100,
+                                               100,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               100,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "red",
+                                "E":  435.45602557798503,
+                                "F":  0,
+                                "C":  -0.5915750396085002
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "finish",
+                                    "tags":  [
+                                                 "finish"
+                                             ]
+                                }
+                   }
+               ],
+    "usedBlocks":  [
+                       "spike_speed",
+                       "spike_start_move",
+                       "spike_wait_until",
+                       "spike_color_is",
+                       "spike_stop_move",
+                       "spike_wait",
+                       "spike_image"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/sensors-2.mp4"
+}

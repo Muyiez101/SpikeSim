@@ -1,0 +1,202 @@
+{
+    "id":  "functions-1",
+    "name":  "A reusable corner",
+    "checkedAt":  "2026-11-01T12:02:30.736Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "visitInOrder",
+                                                   "zones":  [
+                                                                 "point-1",
+                                                                 "point-2",
+                                                                 "point-3",
+                                                                 "point-4"
+                                                             ]
+                                               },
+                                      "passed":  true,
+                                      "label":  "Visit in order: point-1 â†’ point-2 â†’ point-3 â†’ point-4"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "stopInZone",
+                                                   "zone":  "finish"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish inside finish"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "avoidCollisions"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Avoid collisions"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "usesBlock",
+                                                   "block":  "procedures_callnoreturn"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run a My Blocks block"
+                                  }
+                              ],
+                    "runSeconds":  11.71979999999702,
+                    "xp":  80
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Visit in order: point-1 â†’ point-2 â†’ point-3 â†’ point-4",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Finish inside finish",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Avoid collisions",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Run a My Blocks block",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  11.71979999999702,
+                "robot":  {
+                              "x":  415.1070414431393,
+                              "y":  292.83489457731923,
+                              "heading":  0.043814226956853206,
+                              "wheels":  [
+                                             2366.0405895998824,
+                                             949.2073001501697
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "white",
+                                "E":  677.0017862161301,
+                                "F":  0,
+                                "C":  362.5197019057224
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "finish",
+                                    "tags":  [
+                                                 "finish"
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "point-4",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "point-1",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "point-2",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "point-3",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   }
+               ],
+    "usedBlocks":  [
+                       "controls_repeat_ext",
+                       "procedures_callnoreturn",
+                       "spike_move",
+                       "spike_turn"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/functions-1.mp4"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "conditions-5",
+  "name": "Choose a lane",
+  "checkedAt": "2026-11-01T11:34:08.191Z",
+  "status": "complete",
+  "verdict": {
+    "passed": true,
+    "stars": 3,
+    "goals": [
+      {
+        "goal": {
+          "type": "usesBlock",
+          "block": "controls_if"
+        },
+        "passed": true,
+        "label": "Run a If / else block"
+      },
+      {
+        "goal": {
+          "type": "usesBlock",
+          "block": "spike_color"
+        },
+        "passed": true,
+        "label": "Run a Color sensor block"
+      },
+      {
+        "goal": {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        "passed": true,
+        "label": "Finish inside finish"
+      }
+    ],
+    "runSeconds": 1.814,
+    "xp": 75
+  },
+  "uiOutcome": {
+    "stars": 3,
+    "goals": [
+      {
+        "label": "Run a If / else block",
+        "passed": true
+      },
+      {
+        "label": "Run a Color sensor block",
+        "passed": true
+      },
+      {
+        "label": "Finish inside finish",
+        "passed": true
+      }
+    ]
+  },
+  "errors": [],
+  "end": {
+    "t": 1.814,
+    "robot": {
+      "x": 421.74063238065867,
+      "y": 300.66504895764746,
+      "heading": 0.001182219373512581,
+      "wheels": [
+        616.2139207232402,
+        612.0606122242051
+      ],
+      "arms": []
+    },
+    "objects": [],
+    "hub": {
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "statusColor": "#22c55e",
+      "distanceLights": {},
+      "text": ""
+    },
+    "sensors": {
+      "D": "white",
+      "E": 669.7612406253397,
+      "F": 0,
+      "C": 0.07990220210852783
+    },
+    "events": []
+  },
+  "events": [
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "finish",
+        "tags": [
+          "finish"
+        ]
+      }
+    }
+  ],
+  "usedBlocks": [
+    "controls_if",
+    "logic_compare",
+    "spike_color",
+    "spike_move"
+  ],
+  "variables": {},
+  "video": "videos/conditions-5.mp4"
+}

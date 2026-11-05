@@ -1,0 +1,138 @@
+[
+  {
+    "id": "move",
+    "recording": "basics-1",
+    "duration": 5.759867,
+    "times": [0.4, 1.8, 5.26],
+    "bytes": 116869,
+    "sha256": "9c7a64d81e225254b334a0efcec29e753d5e12e5c1277426af309c67315f9e40"
+  },
+  {
+    "id": "turn",
+    "recording": "basics-2",
+    "duration": 7.204,
+    "times": [0.4, 3, 6.7],
+    "bytes": 235477,
+    "sha256": "bf67da0a16ccfe0ba8d5efe94926fb5912fa813371302c0ee7752a2b42cbed96"
+  },
+  {
+    "id": "events",
+    "recording": "basics-5",
+    "duration": 5.875033,
+    "times": [0.4, 0.95, 5.38],
+    "bytes": 122744,
+    "sha256": "635d3b5b187c944b9556f4c9e4352a744eb43dd8bd9629ed4c966c6a12961839"
+  },
+  {
+    "id": "loops",
+    "recording": "patterns-1",
+    "duration": 15.561467,
+    "times": [0.4, 6.8, 15.06],
+    "bytes": 440443,
+    "sha256": "8b4f71354a8eb6f6c5bd969ac3db53e09ae983d4abc4a8b3203313a9f468e4c0"
+  },
+  {
+    "id": "distance",
+    "recording": "sensors-1",
+    "duration": 7.287433,
+    "times": [0.4, 3.3, 6.79],
+    "bytes": 223125,
+    "sha256": "0dec1c9738ca6cd325915d27bde633497e8ebd154dba64980fab9d878ccdaf09"
+  },
+  {
+    "id": "colour",
+    "recording": "sensors-2",
+    "duration": 5.9175,
+    "times": [0.4, 3.6, 5.42],
+    "bytes": 157937,
+    "sha256": "8e78d1a343c27257ec248be8d313187ee39f1e0ea904c11603c34c957631dafd"
+  },
+  {
+    "id": "decisions",
+    "recording": "conditions-5",
+    "duration": 5.9149,
+    "times": [0.4, 1.35, 5.41],
+    "bytes": 76985,
+    "sha256": "a66b1a3155a3362dd247759f5ae37bbde618e4a7e728675e95e1373e0fa4132b"
+  },
+  {
+    "id": "variables",
+    "recording": "functions-4",
+    "duration": 6.761767,
+    "times": [0.4, 2.2, 6.26],
+    "bytes": 133275,
+    "sha256": "3e9c6458f9c5179ad5a32f8e679382b892c2dbbb4f5e0da5aefe2e0538876a34"
+  },
+  {
+    "id": "functions",
+    "recording": "functions-1",
+    "duration": 14.385233,
+    "times": [0.4, 6, 13.89],
+    "bytes": 375370,
+    "sha256": "0bc3459f142024853a66339edc1cb81b602b3242a1135c4afaf7b3de44d90690"
+  },
+  {
+    "id": "parameters",
+    "recording": "functions-3",
+    "duration": 8.927567,
+    "times": [0.4, 3.57, 8.43],
+    "bytes": 170242,
+    "sha256": "520d1e46f3c32d9bc7dcd5e4f9b901b808751ef0150fb9f2e713c1f814d40e48"
+  },
+  {
+    "id": "yaw",
+    "recording": "sensors-4",
+    "duration": 6.115667,
+    "times": [0.4, 2.45, 5.62],
+    "bytes": 122985,
+    "sha256": "2c8cf7b7533f7bf461b8669c7ad0bc3bea6e193803d81c30f4b9f4e660871cbd"
+  },
+  {
+    "id": "gyroturn",
+    "recording": "sensors-4",
+    "duration": 6.115667,
+    "times": [0.4, 2.45, 5.62],
+    "bytes": 122985,
+    "sha256": "2c8cf7b7533f7bf461b8669c7ad0bc3bea6e193803d81c30f4b9f4e660871cbd"
+  },
+  {
+    "id": "conversions",
+    "recording": "basics-1",
+    "duration": 5.759867,
+    "times": [0.4, 1.8, 5.26],
+    "bytes": 116869,
+    "sha256": "9c7a64d81e225254b334a0efcec29e753d5e12e5c1277426af309c67315f9e40"
+  },
+  {
+    "id": "attachments",
+    "recording": "practice-lift",
+    "duration": 9.753167,
+    "times": [0.4, 3.5, 9.25],
+    "bytes": 274482,
+    "sha256": "836292b46edb42e2bec1a35b1e3d6bf8d6de005c8f79df58892fc0b2a7b0bc9d"
+  },
+  {
+    "id": "debugging",
+    "recording": "champions-3",
+    "duration": 8.839,
+    "times": [0.4, 4.42, 8.34],
+    "bytes": 140162,
+    "sha256": "596dc74b7d7c2ee86cad4aecf01388244f8bf5f491e0cd1303152888feee076b"
+  },
+  {
+    "id": "line",
+    "recording": "line-simple",
+    "duration": 79.5095,
+    "times": [0.4, 18, 37],
+    "bytes": 2676648,
+    "sha256": "175eb0cab9751c7934ec5034aae3c8f4b4d33c92e89ecdc157455a2f14cb516f"
+  },
+  {
+    "id": "python",
+    "recording": "basics-1",
+    "duration": 5.759867,
+    "times": [0.4, 1.8, 5.26],
+    "bytes": 116869,
+    "sha256": "9c7a64d81e225254b334a0efcec29e753d5e12e5c1277426af309c67315f9e40"
+  }
+]

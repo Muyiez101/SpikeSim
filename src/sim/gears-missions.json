@@ -1,0 +1,192 @@
+[
+  {
+    "name": "2026 WRO (Elementary)",
+    "file": "worlds/missions/WRO/WRO-2026-Elementary.json?v=3f6ac0f5",
+    "content": "mission-models"
+  },
+  {
+    "name": "2026 WRO (Junior)",
+    "file": "worlds/missions/WRO/WRO-2026-Junior.json?v=ddc3454b",
+    "content": "mission-models"
+  },
+  {
+    "name": "2026 WRO (Senior)",
+    "file": "worlds/missions/WRO/WRO-2026-Senior.json?v=214a3821",
+    "content": "mission-models"
+  },
+  {
+    "name": "2025 FLL (Unearthed)",
+    "file": "worlds/missions/FLL/FLL2025.json?v=00d2ba8a",
+    "content": "mat-only"
+  },
+  {
+    "name": "2025 WRO (Sport)",
+    "file": "worlds/missions/WRO/WRO-2025-Sport.json?v=8a1dacc8",
+    "content": "mission-models"
+  },
+  {
+    "name": "2025 WRO (Future Engineer Simple)",
+    "file": "worlds/missions/WRO/WRO-2025-Future-Engineer-Simple.json?v=525a6c19",
+    "content": "mission-models"
+  },
+  {
+    "name": "2025 WRO (Future Engineer Open)",
+    "file": "worlds/missions/WRO/WRO-2025-Future-Engineer-Open.json?v=a63f9afa",
+    "content": "mission-models"
+  },
+  {
+    "name": "2025 WRO (Future Engineer Obstacle)",
+    "file": "worlds/missions/WRO/WRO-2025-Future-Engineer-Obstacle.json?v=0da11813",
+    "content": "mission-models"
+  },
+  {
+    "name": "2025 WRO (Elementary)",
+    "file": "worlds/missions/WRO/WRO-2025-Elementary.json?v=c85eb989",
+    "content": "mat-only"
+  },
+  {
+    "name": "2025 WRO (Junior)",
+    "file": "worlds/missions/WRO/WRO-2025-Junior.json?v=97f15769",
+    "content": "mat-only"
+  },
+  {
+    "name": "2025 WRO (Senior)",
+    "file": "worlds/missions/WRO/WRO-2025-Senior.json?v=9a88d813",
+    "content": "mat-only"
+  },
+  {
+    "name": "2024 FLL (Submerged)",
+    "file": "worlds/missions/FLL/FLL2024.json?v=0cc112b7",
+    "content": "mission-models"
+  },
+  {
+    "name": "2024 WRO (Elementary)",
+    "file": "worlds/missions/WRO/WRO-2024-Elementary.json?v=61a7112b",
+    "content": "mat-only"
+  },
+  {
+    "name": "2024 WRO (Junior)",
+    "file": "worlds/missions/WRO/WRO-2024-Junior.json?v=8e6277b9",
+    "content": "mission-models"
+  },
+  {
+    "name": "2024 WRO (Senior)",
+    "file": "worlds/missions/WRO/WRO-2024-Senior.json?v=af9c72fc",
+    "content": "mat-only"
+  },
+  {
+    "name": "2023 FLL (Masterpiece)",
+    "file": "worlds/missions/FLL/FLL2023.json?v=02cde046",
+    "content": "mission-models"
+  },
+  {
+    "name": "2023 WRO (Elementary)",
+    "file": "worlds/missions/WRO/WRO-2023-Elementary.json?v=bbda7305",
+    "content": "mission-models"
+  },
+  {
+    "name": "2023 WRO (Junior)",
+    "file": "worlds/missions/WRO/WRO-2023-Junior.json?v=888f71dc",
+    "content": "mission-models"
+  },
+  {
+    "name": "2023 WRO (Senior) No Models",
+    "file": "worlds/missions/WRO/WRO-2023-Senior.json?v=78beee40",
+    "content": "mat-only"
+  },
+  {
+    "name": "2022 FLL (Superpowered)",
+    "file": "worlds/missions/FLL/FLL2022.json?v=8d10813a",
+    "content": "mission-models"
+  },
+  {
+    "name": "2022 WRO (Elementary)",
+    "file": "worlds/missions/WRO/WRO-2022-Regular-Elementary-1.json?v=a2936cb0",
+    "content": "mission-models"
+  },
+  {
+    "name": "2022 WRO (Elementary) Randomization 2",
+    "file": "worlds/missions/WRO/WRO-2022-Regular-Elementary-2.json?v=cc4e3604",
+    "content": "mission-models"
+  },
+  {
+    "name": "2022 WRO (Junior)",
+    "file": "worlds/missions/WRO/WRO-2022-Regular-Junior.json?v=d3b135ba",
+    "content": "mission-models"
+  },
+  {
+    "name": "2022 WRO (Senior)",
+    "file": "worlds/missions/WRO/WRO-2022-Regular-Senior.json?v=b6e40d9d",
+    "content": "mission-models"
+  },
+  {
+    "name": "2021 FLL (Cargo Connect)",
+    "file": "worlds/missions/FLL/FLL2021.json?v=b31b8262",
+    "content": "mission-models"
+  },
+  {
+    "name": "2021 WRO (Elementary)",
+    "file": "worlds/missions/WRO/WRO-2021-Regular-Elementary.json?v=45448002",
+    "content": "mission-models"
+  },
+  {
+    "name": "2021 WRO (Junior)",
+    "file": "worlds/missions/WRO/WRO-2021-Regular-Junior.json?v=151e42f8",
+    "content": "mission-models"
+  },
+  {
+    "name": "2021 WRO (Senior)",
+    "file": "worlds/missions/WRO/WRO-2021-Regular-Senior.json?v=b2fed43c",
+    "content": "mat-only"
+  },
+  {
+    "name": "2020 FLL (RePLAY v2)",
+    "file": "worlds/missions/FLL/FLL2020v2.json?v=83106bf2",
+    "content": "mission-models"
+  },
+  {
+    "name": "2020 FLL (RePLAY)",
+    "file": "worlds/missions/FLL/FLL2020.json?v=eeac2988",
+    "content": "mission-models"
+  },
+  {
+    "name": "2020 WRO (Elementary)",
+    "file": "worlds/missions/WRO/WRO-2020-Regular-Elementary.json?v=136a82cb",
+    "content": "mission-models"
+  },
+  {
+    "name": "2020 WRO (Junior)",
+    "file": "worlds/missions/WRO/WRO-2020-Regular-Junior.json?v=6f98672b",
+    "content": "mat-only"
+  },
+  {
+    "name": "2019 FLL (City Shaper)",
+    "file": "worlds/missions/FLL/FLL2019.json?v=36e51441",
+    "content": "mat-only"
+  },
+  {
+    "name": "2019 WRO (Elementary)",
+    "file": "worlds/missions/WRO/WRO-2019-Regular-Elementary.json?v=a22f9c7b",
+    "content": "mission-models"
+  },
+  {
+    "name": "2019 WRO (Junior)",
+    "file": "worlds/missions/WRO/WRO-2019-Regular-Junior.json?v=deccceee",
+    "content": "mission-models"
+  },
+  {
+    "name": "2018 FLL (Into Orbit)",
+    "file": "worlds/missions/FLL/FLL2018.json?v=55341767",
+    "content": "mat-only"
+  },
+  {
+    "name": "2018 WRO (Elementary)",
+    "file": "worlds/missions/WRO/WRO-2018-Regular-Elementary.json?v=111cdfb9",
+    "content": "mission-models"
+  },
+  {
+    "name": "2018 WRO (Junior)",
+    "file": "worlds/missions/WRO/WRO-2018-Regular-Junior.json?v=54491949",
+    "content": "mission-models"
+  }
+]

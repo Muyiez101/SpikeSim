@@ -1,0 +1,233 @@
+{
+    "id":  "champions-4",
+    "name":  "Patrol and signal",
+    "checkedAt":  "2026-11-01T11:53:44.557Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "visitInOrder",
+                                                   "zones":  [
+                                                                 "point-1",
+                                                                 "point-2",
+                                                                 "point-3",
+                                                                 "point-4"
+                                                             ]
+                                               },
+                                      "passed":  true,
+                                      "label":  "Visit in order: point-1 â†’ point-2 â†’ point-3 â†’ point-4"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "stopInZone",
+                                                   "zone":  "finish"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish inside finish"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "avoidCollisions"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Avoid collisions"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "usesBlock",
+                                                   "block":  "controls_repeat_ext"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run a Repeat block"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "matrixLit"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Show an image on the hub"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "soundPlayed"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Play a tone"
+                                  }
+                              ],
+                    "runSeconds":  13.65189999999851,
+                    "xp":  90
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Visit in order: point-1 â†’ point-2 â†’ point-3 â†’ point-4",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Finish inside finish",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Avoid collisions",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Run a Repeat block",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Show an image on the hub",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Play a tone",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  13.65189999999851,
+                "robot":  {
+                              "x":  379.90164198500304,
+                              "y":  298.901295322846,
+                              "heading":  -0.0006285778456149749,
+                              "wheels":  [
+                                             2902.408311300605,
+                                             1294.6230801829788
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               100,
+                                               0,
+                                               100,
+                                               0
+                                           ],
+                                           [
+                                               100,
+                                               100,
+                                               100,
+                                               100,
+                                               100
+                                           ],
+                                           [
+                                               100,
+                                               100,
+                                               100,
+                                               100,
+                                               100
+                                           ],
+                                           [
+                                               0,
+                                               100,
+                                               100,
+                                               100,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               100,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "white",
+                                "E":  711.5998599893776,
+                                "F":  0,
+                                "C":  359.94070454342045
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "finish",
+                                    "tags":  [
+                                                 "finish"
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "point-4",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "point-1",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "point-2",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "point-3",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "sound",
+                       "data":  {
+                                    "t":  13.3185,
+                                    "frequency":  440,
+                                    "durationMs":  300
+                                }
+                   }
+               ],
+    "usedBlocks":  [
+                       "controls_repeat_ext",
+                       "spike_move",
+                       "spike_turn",
+                       "spike_image",
+                       "spike_beep"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/champions-4.mp4"
+}

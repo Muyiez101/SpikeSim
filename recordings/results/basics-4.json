@@ -1,0 +1,125 @@
+{
+  "id": "basics-4",
+  "name": "Precision stop",
+  "checkedAt": "2026-11-01T11:30:33.649Z",
+  "status": "complete",
+  "verdict": {
+    "passed": true,
+    "stars": 3,
+    "goals": [
+      {
+        "goal": {
+          "type": "reachZone",
+          "zone": "landing-pad"
+        },
+        "passed": true,
+        "label": "Reach the landing-pad zone"
+      },
+      {
+        "goal": {
+          "type": "stayInZone",
+          "zone": "landing-pad",
+          "durationMs": 2000
+        },
+        "passed": true,
+        "label": "Stay in landing-pad for 2 s"
+      }
+    ],
+    "runSeconds": 4.78660000000149,
+    "xp": 70
+  },
+  "uiOutcome": {
+    "stars": 3,
+    "goals": [
+      {
+        "label": "Reach the landing-pad zone",
+        "passed": true
+      },
+      {
+        "label": "Stay in landing-pad for 2 s",
+        "passed": true
+      }
+    ]
+  },
+  "errors": [],
+  "end": {
+    "t": 4.78660000000149,
+    "robot": {
+      "x": 699.9315042497849,
+      "y": 300.3990983250431,
+      "heading": -0.006786667023378914,
+      "wheels": [
+        1188.1757471333087,
+        1190.5516696562465
+      ],
+      "arms": []
+    },
+    "objects": [],
+    "hub": {
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "statusColor": "#22c55e",
+      "distanceLights": {},
+      "text": ""
+    },
+    "sensors": {
+      "D": "white",
+      "E": 191.57600258827958,
+      "F": 0,
+      "C": -0.38776284509853554
+    },
+    "events": []
+  },
+  "events": [
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "landing-pad",
+        "tags": [
+          "finish"
+        ]
+      }
+    }
+  ],
+  "usedBlocks": [
+    "spike_move",
+    "spike_wait"
+  ],
+  "variables": {},
+  "video": "videos/basics-4.mp4"
+}

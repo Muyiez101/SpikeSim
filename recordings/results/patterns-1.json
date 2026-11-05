@@ -1,0 +1,181 @@
+{
+  "id": "patterns-1",
+  "name": "Square dance",
+  "checkedAt": "2026-11-01T11:36:56.776Z",
+  "status": "complete",
+  "verdict": {
+    "passed": true,
+    "stars": 3,
+    "goals": [
+      {
+        "goal": {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4"
+          ]
+        },
+        "passed": true,
+        "label": "Visit in order: point-1 → point-2 → point-3 → point-4"
+      },
+      {
+        "goal": {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        "passed": true,
+        "label": "Finish inside finish"
+      },
+      {
+        "goal": {
+          "type": "avoidCollisions"
+        },
+        "passed": true,
+        "label": "Avoid collisions"
+      },
+      {
+        "goal": {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        },
+        "passed": true,
+        "label": "Run a Repeat block"
+      }
+    ],
+    "runSeconds": 12.53480000000447,
+    "xp": 80
+  },
+  "uiOutcome": {
+    "stars": 3,
+    "goals": [
+      {
+        "label": "Visit in order: point-1 → point-2 → point-3 → point-4",
+        "passed": true
+      },
+      {
+        "label": "Finish inside finish",
+        "passed": true
+      },
+      {
+        "label": "Avoid collisions",
+        "passed": true
+      },
+      {
+        "label": "Run a Repeat block",
+        "passed": true
+      }
+    ]
+  },
+  "errors": [],
+  "end": {
+    "t": 12.53480000000447,
+    "robot": {
+      "x": 390.9924536890301,
+      "y": 294.1234819862899,
+      "heading": -0.007220445191328225,
+      "wheels": [
+        2766.4738058046787,
+        1348.9902170717241
+      ],
+      "arms": []
+    },
+    "objects": [],
+    "hub": {
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "statusColor": "#22c55e",
+      "distanceLights": {},
+      "text": ""
+    },
+    "sensors": {
+      "D": "white",
+      "E": 700.5299412061127,
+      "F": 0,
+      "C": 359.5681982261372
+    },
+    "events": []
+  },
+  "events": [
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "finish",
+        "tags": [
+          "finish"
+        ]
+      }
+    },
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "point-4",
+        "tags": []
+      }
+    },
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "point-1",
+        "tags": []
+      }
+    },
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "point-2",
+        "tags": []
+      }
+    },
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "point-3",
+        "tags": []
+      }
+    }
+  ],
+  "usedBlocks": [
+    "controls_repeat_ext",
+    "spike_move",
+    "spike_turn"
+  ],
+  "variables": {},
+  "video": "videos/patterns-1.mp4"
+}

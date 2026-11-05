@@ -1,0 +1,190 @@
+﻿{
+    "id":  "mazes-5",
+    "name":  "Escape route",
+    "checkedAt":  "2026-11-01T11:46:21.538Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "visitInOrder",
+                                                   "zones":  [
+                                                                 "stop-1",
+                                                                 "stop-2",
+                                                                 "stop-3"
+                                                             ]
+                                               },
+                                      "passed":  true,
+                                      "label":  "Visit in order: stop-1 â†’ stop-2 â†’ stop-3"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "stopInZone",
+                                                   "zone":  "finish"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish inside finish"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "avoidCollisions"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Avoid collisions"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "avoidZone",
+                                                   "zone":  "danger"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Never enter danger"
+                                  }
+                              ],
+                    "runSeconds":  13.35970000000298,
+                    "xp":  80
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Visit in order: stop-1 â†’ stop-2 â†’ stop-3",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Finish inside finish",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Avoid collisions",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Never enter danger",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  13.35970000000298,
+                "robot":  {
+                              "x":  852.3085907906968,
+                              "y":  709.9303569836079,
+                              "heading":  -4.6539853763082455,
+                              "wheels":  [
+                                             3582.8079383224454,
+                                             3209.088692781266
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "white",
+                                "E":  181.8503970369028,
+                                "F":  0,
+                                "C":  94.11425903114082
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "stop-1",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "stop-2",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "finish",
+                                    "tags":  [
+                                                 "finish"
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "stop-3",
+                                    "tags":  [
+
+                                             ]
+                                }
+                   }
+               ],
+    "usedBlocks":  [
+                       "spike_turn",
+                       "spike_move"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/mazes-5.mp4"
+}

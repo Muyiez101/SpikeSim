@@ -1,0 +1,1750 @@
+{
+  "generatedAt": "2026-11-01T13:05:41.251Z",
+  "classroomRecorded": 41,
+  "attachmentRecorded": 5,
+  "practiceRecorded": 3,
+  "entries": [
+    {
+      "id": "basics-1",
+      "name": "First steps",
+      "robot": "driving-base",
+      "project": "projects/basics-1.rlproj",
+      "checks": [
+        {
+          "type": "reachZone",
+          "zone": "landing-pad"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/basics-1.mp4",
+      "result": "results/basics-1.json",
+      "details": ""
+    },
+    {
+      "id": "basics-2",
+      "name": "Turn and go",
+      "robot": "driving-base",
+      "project": "projects/basics-2.rlproj",
+      "checks": [
+        {
+          "type": "reachZone",
+          "zone": "side-corridor"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/basics-2.mp4",
+      "result": "results/basics-2.json",
+      "details": ""
+    },
+    {
+      "id": "basics-3",
+      "name": "The long way round",
+      "robot": "driving-base",
+      "project": "projects/basics-3.rlproj",
+      "checks": [
+        {
+          "type": "reachZone",
+          "zone": "landing-pad"
+        },
+        {
+          "type": "avoidZone",
+          "zone": "side-corridor"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/basics-3.mp4",
+      "result": "results/basics-3.json",
+      "details": ""
+    },
+    {
+      "id": "basics-4",
+      "name": "Precision stop",
+      "robot": "driving-base",
+      "project": "projects/basics-4.rlproj",
+      "checks": [
+        {
+          "type": "reachZone",
+          "zone": "landing-pad"
+        },
+        {
+          "type": "stayInZone",
+          "zone": "landing-pad",
+          "durationMs": 2000
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/basics-4.mp4",
+      "result": "results/basics-4.json",
+      "details": ""
+    },
+    {
+      "id": "conditions-1",
+      "name": "Green means go",
+      "robot": "driving-base",
+      "project": "projects/conditions-1.rlproj",
+      "checks": [
+        {
+          "type": "reachZone",
+          "zone": "green-zone"
+        },
+        {
+          "type": "avoidZone",
+          "zone": "red-zone"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/conditions-1.mp4",
+      "result": "results/conditions-1.json",
+      "details": ""
+    },
+    {
+      "id": "conditions-2",
+      "name": "Sensor detective",
+      "robot": "driving-base",
+      "project": "projects/conditions-2.rlproj",
+      "checks": [
+        {
+          "type": "reachZone",
+          "zone": "green-zone"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/conditions-2.mp4",
+      "result": "results/conditions-2.json",
+      "details": ""
+    },
+    {
+      "id": "conditions-3",
+      "name": "Yellow detour",
+      "robot": "driving-base",
+      "project": "projects/conditions-3.rlproj",
+      "checks": [
+        {
+          "type": "reachZone",
+          "zone": "yellow-zone"
+        },
+        {
+          "type": "reachZone",
+          "zone": "green-zone"
+        },
+        {
+          "type": "avoidZone",
+          "zone": "red-zone"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/conditions-3.mp4",
+      "result": "results/conditions-3.json",
+      "details": ""
+    },
+    {
+      "id": "loops-1",
+      "name": "Token collector",
+      "robot": "driving-base",
+      "project": "projects/loops-1.rlproj",
+      "checks": [
+        {
+          "type": "pushObjectWithTagToZone",
+          "tag": "token",
+          "zone": "home"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/loops-1.mp4",
+      "result": "results/loops-1.json",
+      "details": ""
+    },
+    {
+      "id": "loops-2",
+      "name": "Clean sweep",
+      "robot": "driving-base",
+      "project": "projects/loops-2.rlproj",
+      "checks": [
+        {
+          "type": "pushObjectToZone",
+          "object": "token-1",
+          "zone": "home"
+        },
+        {
+          "type": "pushObjectToZone",
+          "object": "token-2",
+          "zone": "home"
+        },
+        {
+          "type": "pushObjectToZone",
+          "object": "token-3",
+          "zone": "home"
+        },
+        {
+          "type": "reachZone",
+          "zone": "home"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/loops-2.mp4",
+      "result": "results/loops-2.json",
+      "details": ""
+    },
+    {
+      "id": "basics-5",
+      "name": "Say hello",
+      "robot": "driving-base",
+      "project": "projects/basics-5.rlproj",
+      "checks": [
+        {
+          "type": "matrixLit"
+        },
+        {
+          "type": "soundPlayed"
+        },
+        {
+          "type": "stopInZone",
+          "zone": "landing-pad"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/basics-5.mp4",
+      "result": "results/basics-5.json",
+      "details": ""
+    },
+    {
+      "id": "conditions-4",
+      "name": "Yellow light",
+      "robot": "driving-base",
+      "project": "projects/conditions-4.rlproj",
+      "checks": [
+        {
+          "type": "sensorAtEnd",
+          "port": "D",
+          "value": "yellow"
+        },
+        {
+          "type": "matrixLit"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/conditions-4.mp4",
+      "result": "results/conditions-4.json",
+      "details": ""
+    },
+    {
+      "id": "conditions-5",
+      "name": "Choose a lane",
+      "robot": "driving-base",
+      "project": "projects/conditions-5.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "controls_if"
+        },
+        {
+          "type": "usesBlock",
+          "block": "spike_color"
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/conditions-5.mp4",
+      "result": "results/conditions-5.json",
+      "details": ""
+    },
+    {
+      "id": "loops-3",
+      "name": "Three pushes",
+      "robot": "driving-base",
+      "project": "projects/loops-3.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        },
+        {
+          "type": "pushObjectToZone",
+          "object": "token-1",
+          "zone": "home"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/loops-3.mp4",
+      "result": "results/loops-3.json",
+      "details": ""
+    },
+    {
+      "id": "loops-4",
+      "name": "Rhythm robot",
+      "robot": "driving-base",
+      "project": "projects/loops-4.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        },
+        {
+          "type": "matrixLit"
+        },
+        {
+          "type": "soundPlayed"
+        },
+        {
+          "type": "minTime",
+          "seconds": 4
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/loops-4.mp4",
+      "result": "results/loops-4.json",
+      "details": ""
+    },
+    {
+      "id": "loops-5",
+      "name": "Count your steps",
+      "robot": "driving-base",
+      "project": "projects/loops-5.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "controls_for"
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/loops-5.mp4",
+      "result": "results/loops-5.json",
+      "details": ""
+    },
+    {
+      "id": "patterns-1",
+      "name": "Square dance",
+      "robot": "driving-base",
+      "project": "projects/patterns-1.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/patterns-1.mp4",
+      "result": "results/patterns-1.json",
+      "details": ""
+    },
+    {
+      "id": "patterns-2",
+      "name": "Triangle trail",
+      "robot": "driving-base",
+      "project": "projects/patterns-2.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/patterns-2.mp4",
+      "result": "results/patterns-2.json",
+      "details": ""
+    },
+    {
+      "id": "patterns-3",
+      "name": "Star power",
+      "robot": "driving-base",
+      "project": "projects/patterns-3.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4",
+            "point-5"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/patterns-3.mp4",
+      "result": "results/patterns-3.json",
+      "details": ""
+    },
+    {
+      "id": "patterns-4",
+      "name": "Hexagon walk",
+      "robot": "driving-base",
+      "project": "projects/patterns-4.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4",
+            "point-5",
+            "point-6"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/patterns-4.mp4",
+      "result": "results/patterns-4.json",
+      "details": ""
+    },
+    {
+      "id": "patterns-5",
+      "name": "Octagon orbit",
+      "robot": "driving-base",
+      "project": "projects/patterns-5.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4",
+            "point-5",
+            "point-6",
+            "point-7",
+            "point-8"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/patterns-5.mp4",
+      "result": "results/patterns-5.json",
+      "details": ""
+    },
+    {
+      "id": "sensors-1",
+      "name": "Stop at the wall",
+      "robot": "driving-base",
+      "project": "projects/sensors-1.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "spike_distance_compare"
+        },
+        {
+          "type": "sensorBetween",
+          "port": "E",
+          "min": 190,
+          "max": 200
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/sensors-1.mp4",
+      "result": "results/sensors-1.json",
+      "details": ""
+    },
+    {
+      "id": "sensors-2",
+      "name": "Color gate",
+      "robot": "driving-base",
+      "project": "projects/sensors-2.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "spike_color_is"
+        },
+        {
+          "type": "sensorAtEnd",
+          "port": "D",
+          "value": "red"
+        },
+        {
+          "type": "matrixLit"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/sensors-2.mp4",
+      "result": "results/sensors-2.json",
+      "details": ""
+    },
+    {
+      "id": "sensors-3",
+      "name": "Bump and back",
+      "robot": "driving-base",
+      "project": "projects/sensors-3.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "spike_force_pressed"
+        },
+        {
+          "type": "sensorSeen",
+          "port": "F",
+          "value": 10
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "matrixLit"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/sensors-3.mp4",
+      "result": "results/sensors-3.json",
+      "details": ""
+    },
+    {
+      "id": "sensors-4",
+      "name": "Gyro guard",
+      "robot": "driving-base",
+      "project": "projects/sensors-4.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "spike_heading"
+        },
+        {
+          "type": "headingWithin",
+          "degrees": 90,
+          "tolerance": 1
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/sensors-4.mp4",
+      "result": "results/sensors-4.json",
+      "details": ""
+    },
+    {
+      "id": "sensors-5",
+      "name": "Time keeper",
+      "robot": "driving-base",
+      "project": "projects/sensors-5.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "spike_timer"
+        },
+        {
+          "type": "minTime",
+          "seconds": 3
+        },
+        {
+          "type": "matrixLit"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/sensors-5.mp4",
+      "result": "results/sensors-5.json",
+      "details": ""
+    },
+    {
+      "id": "mazes-1",
+      "name": "Corridor run",
+      "robot": "driving-base",
+      "project": "projects/mazes-1.rlproj",
+      "checks": [
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/mazes-1.mp4",
+      "result": "results/mazes-1.json",
+      "details": ""
+    },
+    {
+      "id": "mazes-2",
+      "name": "Around the corner",
+      "robot": "driving-base",
+      "project": "projects/mazes-2.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "stop-1",
+            "stop-2"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/mazes-2.mp4",
+      "result": "results/mazes-2.json",
+      "details": ""
+    },
+    {
+      "id": "mazes-3",
+      "name": "Deliver the parcel",
+      "robot": "driving-base",
+      "project": "projects/mazes-3.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "stop-1",
+            "stop-2",
+            "stop-3"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/mazes-3.mp4",
+      "result": "results/mazes-3.json",
+      "details": ""
+    },
+    {
+      "id": "mazes-4",
+      "name": "Zigzag avenue",
+      "robot": "driving-base",
+      "project": "projects/mazes-4.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "stop-1",
+            "stop-2",
+            "stop-3",
+            "stop-4"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/mazes-4.mp4",
+      "result": "results/mazes-4.json",
+      "details": ""
+    },
+    {
+      "id": "mazes-5",
+      "name": "Escape route",
+      "robot": "driving-base",
+      "project": "projects/mazes-5.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "stop-1",
+            "stop-2",
+            "stop-3"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "avoidZone",
+          "zone": "danger"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/mazes-5.mp4",
+      "result": "results/mazes-5.json",
+      "details": ""
+    },
+    {
+      "id": "functions-1",
+      "name": "A reusable corner",
+      "robot": "driving-base",
+      "project": "projects/functions-1.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "procedures_callnoreturn"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/functions-1.mp4",
+      "result": "results/functions-1.json",
+      "details": ""
+    },
+    {
+      "id": "functions-2",
+      "name": "Stair builder",
+      "robot": "driving-base",
+      "project": "projects/functions-2.rlproj",
+      "checks": [
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "usesBlock",
+          "block": "procedures_callnoreturn"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/functions-2.mp4",
+      "result": "results/functions-2.json",
+      "details": ""
+    },
+    {
+      "id": "functions-3",
+      "name": "A distance argument",
+      "robot": "driving-base",
+      "project": "projects/functions-3.rlproj",
+      "checks": [
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "usesBlock",
+          "block": "procedures_callnoreturn"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/functions-3.mp4",
+      "result": "results/functions-3.json",
+      "details": ""
+    },
+    {
+      "id": "functions-4",
+      "name": "Delivery counter",
+      "robot": "driving-base",
+      "project": "projects/functions-4.rlproj",
+      "checks": [
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "usesBlock",
+          "block": "procedures_callnoreturn"
+        },
+        {
+          "type": "variableEquals",
+          "name": "deliveries",
+          "value": 3
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/functions-4.mp4",
+      "result": "results/functions-4.json",
+      "details": ""
+    },
+    {
+      "id": "functions-5",
+      "name": "Scale a route",
+      "robot": "driving-base",
+      "project": "projects/functions-5.rlproj",
+      "checks": [
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "usesBlock",
+          "block": "procedures_callnoreturn"
+        },
+        {
+          "type": "usesBlock",
+          "block": "math_arithmetic"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/functions-5.mp4",
+      "result": "results/functions-5.json",
+      "details": ""
+    },
+    {
+      "id": "champions-1",
+      "name": "Double delivery",
+      "robot": "driving-base",
+      "project": "projects/champions-1.rlproj",
+      "checks": [
+        {
+          "type": "pushObjectToZone",
+          "object": "parcel-1",
+          "zone": "finish"
+        },
+        {
+          "type": "pushObjectToZone",
+          "object": "parcel-2",
+          "zone": "finish"
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/champions-1.mp4",
+      "result": "results/champions-1.json",
+      "details": ""
+    },
+    {
+      "id": "champions-2",
+      "name": "Slalom route",
+      "robot": "driving-base",
+      "project": "projects/champions-2.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "stop-1",
+            "stop-2",
+            "stop-3"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "avoidZone",
+          "zone": "danger"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/champions-2.mp4",
+      "result": "results/champions-2.json",
+      "details": ""
+    },
+    {
+      "id": "champions-3",
+      "name": "Precision champion",
+      "robot": "driving-base",
+      "project": "projects/champions-3.rlproj",
+      "checks": [
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "stayInZone",
+          "zone": "finish",
+          "durationMs": 3000
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/champions-3.mp4",
+      "result": "results/champions-3.json",
+      "details": ""
+    },
+    {
+      "id": "champions-4",
+      "name": "Patrol and signal",
+      "robot": "driving-base",
+      "project": "projects/champions-4.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        },
+        {
+          "type": "matrixLit"
+        },
+        {
+          "type": "soundPlayed"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/champions-4.mp4",
+      "result": "results/champions-4.json",
+      "details": ""
+    },
+    {
+      "id": "champions-5",
+      "name": "Red alert",
+      "robot": "driving-base",
+      "project": "projects/champions-5.rlproj",
+      "checks": [
+        {
+          "type": "usesBlock",
+          "block": "spike_color_is"
+        },
+        {
+          "type": "sensorAtEnd",
+          "port": "D",
+          "value": "red"
+        },
+        {
+          "type": "matrixLit"
+        },
+        {
+          "type": "soundPlayed"
+        },
+        {
+          "type": "avoidCollisions"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/champions-5.mp4",
+      "result": "results/champions-5.json",
+      "details": ""
+    },
+    {
+      "id": "champions-6",
+      "name": "Robot showcase",
+      "robot": "driving-base",
+      "project": "projects/champions-6.rlproj",
+      "checks": [
+        {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3",
+            "point-4"
+          ]
+        },
+        {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        {
+          "type": "avoidCollisions"
+        },
+        {
+          "type": "usesBlock",
+          "block": "procedures_callnoreturn"
+        },
+        {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        },
+        {
+          "type": "matrixLit"
+        },
+        {
+          "type": "soundPlayed"
+        }
+      ],
+      "group": "Classroom",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/champions-6.mp4",
+      "result": "results/champions-6.json",
+      "details": ""
+    },
+    {
+      "id": "practice-push",
+      "name": "Push a cargo crate",
+      "robot": "pusher",
+      "project": "projects/practice-push.rlproj",
+      "group": "Attachment exercise",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/practice-push.mp4",
+      "result": "results/practice-push.json",
+      "details": ""
+    },
+    {
+      "id": "practice-lift",
+      "name": "Lift a raised pallet",
+      "robot": "forklift",
+      "project": "projects/practice-lift.rlproj",
+      "group": "Attachment exercise",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/practice-lift.mp4",
+      "result": "results/practice-lift.json",
+      "details": ""
+    },
+    {
+      "id": "practice-lever",
+      "name": "Turn a hinged gate",
+      "robot": "pusher",
+      "project": "projects/practice-lever.rlproj",
+      "group": "Attachment exercise",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/practice-lever.mp4",
+      "result": "results/practice-lever.json",
+      "details": ""
+    },
+    {
+      "id": "practice-carry",
+      "name": "Collect and deliver",
+      "robot": "scoop",
+      "project": "projects/practice-carry.rlproj",
+      "group": "Attachment exercise",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/practice-carry.mp4",
+      "result": "results/practice-carry.json",
+      "details": ""
+    },
+    {
+      "id": "practice-park",
+      "name": "Measure, turn and park",
+      "robot": "pusher",
+      "project": "projects/practice-park.rlproj",
+      "group": "Attachment exercise",
+      "status": "recorded",
+      "label": "Passed in 3D · video ready",
+      "video": "videos/practice-park.mp4",
+      "result": "results/practice-park.json",
+      "details": ""
+    },
+    {
+      "id": "world:grid",
+      "name": "Grid Map (20cm)",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:lineFollowing:simple",
+      "name": "Line Following Challenges: Simple Curves",
+      "project": "projects/line-simple.rlproj",
+      "resultId": "line-simple",
+      "scope": "Default course recorded",
+      "group": "Practice world",
+      "status": "recorded",
+      "label": "Passed in 3D · Default course recorded",
+      "video": "videos/line-simple.mp4",
+      "result": "results/line-simple.json"
+    },
+    {
+      "id": "world:lineFollowing:sharp",
+      "name": "Line Following Challenges: Sharp Turns",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:lineFollowing:gaps1",
+      "name": "Line Following Challenges: Gaps 1",
+      "project": "projects/line-gaps1.rlproj",
+      "resultId": "line-gaps1",
+      "scope": "Default course recorded",
+      "group": "Practice world",
+      "status": "recorded",
+      "label": "Passed in 3D · Default course recorded",
+      "video": "videos/line-gaps1.mp4",
+      "result": "results/line-gaps1.json"
+    },
+    {
+      "id": "world:lineFollowing:gaps2",
+      "name": "Line Following Challenges: Gaps 2",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:lineFollowing:obstacles1",
+      "name": "Line Following Challenges: Obstacles 1",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:lineFollowing:obstacles2",
+      "name": "Line Following Challenges: Obstacles 2",
+      "project": "Obstacle-2-line-follower.rlproj",
+      "resultId": "obstacles-2",
+      "scope": "Left–right–left layout recorded",
+      "group": "Practice world",
+      "status": "recorded",
+      "label": "Passed in 3D · Left–right–left layout recorded",
+      "video": "Line-follower-Obstacle-2.mp4",
+      "result": "results/obstacles-2.json"
+    },
+    {
+      "id": "world:lineFollowing:obstacles3",
+      "name": "Line Following Challenges: Obstacles 3",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:lineFollowing:obstacles4",
+      "name": "Line Following Challenges: Obstacles 4",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:lineFollowing:junctions1",
+      "name": "Line Following Challenges: Junctions 1",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:lineFollowing:junctions2",
+      "name": "Line Following Challenges: Junctions 2",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:gyro:straight",
+      "name": "Gyro Challenges: Straight Run",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:gyro:square",
+      "name": "Gyro Challenges: Square Loops",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:gyro:randomDirection",
+      "name": "Gyro Challenges: Random Direction",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:paintball:firingRange",
+      "name": "Paintball Challenges: Firing Range",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:paintball:variableRange",
+      "name": "Paintball Challenges: Variable Range",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:paintball:findTarget",
+      "name": "Paintball Challenges: Find the Target",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:paintball:highLow",
+      "name": "Paintball Challenges: High and Low",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:paintball:movingTarget1",
+      "name": "Paintball Challenges: Moving Target 1",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:paintball:movingTarget2",
+      "name": "Paintball Challenges: Moving Target 2",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:sumo:fixedDummies",
+      "name": "Sumo Challenges: Fixed Dummies",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:sumo:randomDummies",
+      "name": "Sumo Challenges: Random Dummies",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:sumo:randomNoRed",
+      "name": "Sumo Challenges: No Border",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:sumo:fixedPillars",
+      "name": "Sumo Challenges: Pillars",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:fireRescue:grocers",
+      "name": "Fire Rescue: Fire at the Grocers",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:fireRescue:warehouse",
+      "name": "Fire Rescue: Warehouse Fire",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:maze:perfect",
+      "name": "Maze Map: Perfect",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:maze:imperfect",
+      "name": "Maze Map: Imperfect",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:football",
+      "name": "Football Arena",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:arena:island",
+      "name": "Multi-Robot Arena: Paintball Islands",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:arena:collector",
+      "name": "Multi-Robot Arena: Color Collector",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "world:arena:sumo",
+      "name": "Multi-Robot Arena: Sumo",
+      "group": "Practice world",
+      "status": "pending",
+      "label": "Solution and recording still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2026-Elementary.json?v=3f6ac0f5",
+      "name": "2026 WRO (Elementary)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2026-Junior.json?v=ddc3454b",
+      "name": "2026 WRO (Junior)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2026-Senior.json?v=214a3821",
+      "name": "2026 WRO (Senior)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2025.json?v=00d2ba8a",
+      "name": "2025 FLL (Unearthed)",
+      "content": "mat-only",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Mat only · mission models needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2025-Sport.json?v=8a1dacc8",
+      "name": "2025 WRO (Sport)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2025-Future-Engineer-Simple.json?v=525a6c19",
+      "name": "2025 WRO (Future Engineer Simple)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2025-Future-Engineer-Open.json?v=a63f9afa",
+      "name": "2025 WRO (Future Engineer Open)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2025-Future-Engineer-Obstacle.json?v=0da11813",
+      "name": "2025 WRO (Future Engineer Obstacle)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2025-Elementary.json?v=c85eb989",
+      "name": "2025 WRO (Elementary)",
+      "content": "mat-only",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Mat only · mission models needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2025-Junior.json?v=97f15769",
+      "name": "2025 WRO (Junior)",
+      "content": "mat-only",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Mat only · mission models needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2025-Senior.json?v=9a88d813",
+      "name": "2025 WRO (Senior)",
+      "content": "mat-only",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Mat only · mission models needed"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2024.json?v=0cc112b7",
+      "name": "2024 FLL (Submerged)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2024-Elementary.json?v=61a7112b",
+      "name": "2024 WRO (Elementary)",
+      "content": "mat-only",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Mat only · mission models needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2024-Junior.json?v=8e6277b9",
+      "name": "2024 WRO (Junior)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2024-Senior.json?v=af9c72fc",
+      "name": "2024 WRO (Senior)",
+      "content": "mat-only",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Mat only · mission models needed"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2023.json?v=02cde046",
+      "name": "2023 FLL (Masterpiece)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2023-Elementary.json?v=bbda7305",
+      "name": "2023 WRO (Elementary)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2023-Junior.json?v=888f71dc",
+      "name": "2023 WRO (Junior)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2023-Senior.json?v=78beee40",
+      "name": "2023 WRO (Senior) No Models",
+      "content": "mat-only",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Mat only · mission models needed"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2022.json?v=8d10813a",
+      "name": "2022 FLL (Superpowered)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2022-Regular-Elementary-1.json?v=a2936cb0",
+      "name": "2022 WRO (Elementary)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2022-Regular-Elementary-2.json?v=cc4e3604",
+      "name": "2022 WRO (Elementary) Randomization 2",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2022-Regular-Junior.json?v=d3b135ba",
+      "name": "2022 WRO (Junior)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2022-Regular-Senior.json?v=b6e40d9d",
+      "name": "2022 WRO (Senior)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2021.json?v=b31b8262",
+      "name": "2021 FLL (Cargo Connect)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2021-Regular-Elementary.json?v=45448002",
+      "name": "2021 WRO (Elementary)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2021-Regular-Junior.json?v=151e42f8",
+      "name": "2021 WRO (Junior)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2021-Regular-Senior.json?v=b2fed43c",
+      "name": "2021 WRO (Senior)",
+      "content": "mat-only",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Mat only · mission models needed"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2020v2.json?v=83106bf2",
+      "name": "2020 FLL (RePLAY v2)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2020.json?v=eeac2988",
+      "name": "2020 FLL (RePLAY)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2020-Regular-Elementary.json?v=136a82cb",
+      "name": "2020 WRO (Elementary)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2020-Regular-Junior.json?v=6f98672b",
+      "name": "2020 WRO (Junior)",
+      "content": "mat-only",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Mat only · mission models needed"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2019.json?v=36e51441",
+      "name": "2019 FLL (City Shaper)",
+      "content": "mat-only",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Mat only · mission models needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2019-Regular-Elementary.json?v=a22f9c7b",
+      "name": "2019 WRO (Elementary)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2019-Regular-Junior.json?v=deccceee",
+      "name": "2019 WRO (Junior)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/FLL/FLL2018.json?v=55341767",
+      "name": "2018 FLL (Into Orbit)",
+      "content": "mat-only",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Mat only · mission models needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2018-Regular-Elementary.json?v=111cdfb9",
+      "name": "2018 WRO (Elementary)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    },
+    {
+      "id": "worlds/missions/WRO/WRO-2018-Regular-Junior.json?v=54491949",
+      "name": "2018 WRO (Junior)",
+      "content": "mission-models",
+      "status": "pending",
+      "group": "Competition field",
+      "label": "Models included · solution and scoring still needed"
+    }
+  ]
+}

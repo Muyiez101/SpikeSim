@@ -1,0 +1,149 @@
+{
+    "id":  "functions-3",
+    "name":  "A distance argument",
+    "checkedAt":  "2026-11-01T12:02:45.946Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "stopInZone",
+                                                   "zone":  "finish"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish inside finish"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "usesBlock",
+                                                   "block":  "procedures_callnoreturn"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run a My Blocks block"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "avoidCollisions"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Avoid collisions"
+                                  }
+                              ],
+                    "runSeconds":  6.50370000000298,
+                    "xp":  75
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Finish inside finish",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Run a My Blocks block",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Avoid collisions",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  6.50370000000298,
+                "robot":  {
+                              "x":  336.4838265788492,
+                              "y":  595.8530697634116,
+                              "heading":  -4.701664227170863,
+                              "wheels":  [
+                                             1211.632195713924,
+                                             848.5178329230794
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "white",
+                                "E":  295.6704369131465,
+                                "F":  0,
+                                "C":  90.61835514514992
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "finish",
+                                    "tags":  [
+                                                 "finish"
+                                             ]
+                                }
+                   }
+               ],
+    "usedBlocks":  [
+                       "procedures_callnoreturn",
+                       "spike_move",
+                       "variables_get",
+                       "spike_turn"
+                   ],
+    "variables":  {
+                      "distance":  0
+                  },
+    "video":  "videos/functions-3.mp4"
+}

@@ -1,0 +1,39 @@
+.brand-identity {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  color: var(--ink);
+  text-align: left;
+}
+.brand-symbol { display: block; flex: 0 0 auto; }
+.brand-lockup { flex-shrink: 0; }
+.sidebar nav { min-height: 0; overflow-y: auto; scrollbar-width: thin; }
+.sidebar-bottom { flex-shrink: 0; }
+.brand-type strong {
+  display: block;
+  font-family: Lexend, sans-serif;
+  font-size: 1.16rem;
+  font-weight: 600;
+  letter-spacing: -.045em;
+  line-height: 1.3;
+}
+.brand-type small {
+  display: block;
+  margin-top: 3px;
+  font-size: .75rem;
+  color: var(--ink-soft);
+}
+.brand-identity-compact .brand-symbol { width: 30px; height: 30px; }
+.brand-identity-compact .brand-type strong { font-size: 1rem; }
+.session-brand { margin-bottom: 24px; }
+.brand-about {
+  display: grid;
+  gap: 15px;
+  padding: 26px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+}
+.brand-about h2 { margin: 0; font-size: 1.2rem; line-height: 1.5; letter-spacing: -.025em; }
+.brand-about p { max-width: 60ch; margin: 0; line-height: 1.6; }
+.brand-about small { color: var(--ink-soft); line-height: 1.5; }

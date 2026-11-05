@@ -1,0 +1,152 @@
+{
+    "id":  "functions-4",
+    "name":  "Delivery counter",
+    "checkedAt":  "2026-11-01T12:03:01.857Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "stopInZone",
+                                                   "zone":  "finish"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish inside finish"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "usesBlock",
+                                                   "block":  "procedures_callnoreturn"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run a My Blocks block"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "variableEquals",
+                                                   "name":  "deliveries",
+                                                   "value":  3
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish with deliveries = 3"
+                                  }
+                              ],
+                    "runSeconds":  3.9,
+                    "xp":  75
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Finish inside finish",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Run a My Blocks block",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Finish with deliveries = 3",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  3.9,
+                "robot":  {
+                              "x":  433.2717476012242,
+                              "y":  299.21361576754424,
+                              "heading":  -0.0041019868697692065,
+                              "wheels":  [
+                                             623.8771754605731,
+                                             613.8003247727518
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "white",
+                                "E":  658.2360731676047,
+                                "F":  0,
+                                "C":  -0.2469630102415863
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "finish",
+                                    "tags":  [
+                                                 "finish"
+                                             ]
+                                }
+                   }
+               ],
+    "usedBlocks":  [
+                       "variables_set",
+                       "controls_repeat_ext",
+                       "procedures_callnoreturn",
+                       "spike_move",
+                       "math_change"
+                   ],
+    "variables":  {
+                      "deliveries":  3
+                  },
+    "video":  "videos/functions-4.mp4"
+}

@@ -1,0 +1,13 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.700
+The four marked points show the square the robot will follow.
+
+2
+00:00:00.700 --> 00:00:13.590
+Each side and turn comes from another call to the same corner definition.
+
+3
+00:00:13.590 --> 00:00:14.385
+Four calls have brought the robot close to its start. Change the definition to resize all four sides.

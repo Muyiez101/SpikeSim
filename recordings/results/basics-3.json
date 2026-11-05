@@ -1,0 +1,123 @@
+{
+  "id": "basics-3",
+  "name": "The long way round",
+  "checkedAt": "2026-11-01T11:29:46.117Z",
+  "status": "complete",
+  "verdict": {
+    "passed": true,
+    "stars": 3,
+    "goals": [
+      {
+        "goal": {
+          "type": "reachZone",
+          "zone": "landing-pad"
+        },
+        "passed": true,
+        "label": "Reach the landing-pad zone"
+      },
+      {
+        "goal": {
+          "type": "avoidZone",
+          "zone": "side-corridor"
+        },
+        "passed": true,
+        "label": "Never enter side-corridor"
+      }
+    ],
+    "runSeconds": 2.75520000000298,
+    "xp": 70
+  },
+  "uiOutcome": {
+    "stars": 3,
+    "goals": [
+      {
+        "label": "Reach the landing-pad zone",
+        "passed": true
+      },
+      {
+        "label": "Never enter side-corridor",
+        "passed": true
+      }
+    ]
+  },
+  "errors": [],
+  "end": {
+    "t": 2.75520000000298,
+    "robot": {
+      "x": 703.371318619685,
+      "y": 286.2264249437535,
+      "heading": -0.08571448859786183,
+      "wheels": [
+        1222.422805353307,
+        1157.6232343202264
+      ],
+      "arms": []
+    },
+    "objects": [],
+    "hub": {
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "statusColor": "#22c55e",
+      "distanceLights": {},
+      "text": ""
+    },
+    "sensors": {
+      "D": "white",
+      "E": 188.61487943865413,
+      "F": 0,
+      "C": -4.1369294365835145
+    },
+    "events": []
+  },
+  "events": [
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "landing-pad",
+        "tags": [
+          "finish"
+        ]
+      }
+    }
+  ],
+  "usedBlocks": [
+    "spike_move"
+  ],
+  "variables": {},
+  "video": "videos/basics-3.mp4"
+}

@@ -1,0 +1,13 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.700
+Before the run, the virtual hub display is dark. Watch the small hub at the bottom right.
+
+2
+00:00:00.700 --> 00:00:05.080
+A heart lights up on the hub. This output shows that the start stack has begun.
+
+3
+00:00:05.080 --> 00:00:05.875
+The robot has reached the pad with the heart still displayed. Output and movement followed the same stack.

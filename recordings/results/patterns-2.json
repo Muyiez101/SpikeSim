@@ -1,0 +1,173 @@
+{
+  "id": "patterns-2",
+  "name": "Triangle trail",
+  "checkedAt": "2026-11-01T11:37:16.385Z",
+  "status": "complete",
+  "verdict": {
+    "passed": true,
+    "stars": 3,
+    "goals": [
+      {
+        "goal": {
+          "type": "visitInOrder",
+          "zones": [
+            "point-1",
+            "point-2",
+            "point-3"
+          ]
+        },
+        "passed": true,
+        "label": "Visit in order: point-1 → point-2 → point-3"
+      },
+      {
+        "goal": {
+          "type": "stopInZone",
+          "zone": "finish"
+        },
+        "passed": true,
+        "label": "Finish inside finish"
+      },
+      {
+        "goal": {
+          "type": "avoidCollisions"
+        },
+        "passed": true,
+        "label": "Avoid collisions"
+      },
+      {
+        "goal": {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        },
+        "passed": true,
+        "label": "Run a Repeat block"
+      }
+    ],
+    "runSeconds": 10.98070000000298,
+    "xp": 80
+  },
+  "uiOutcome": {
+    "stars": 3,
+    "goals": [
+      {
+        "label": "Visit in order: point-1 → point-2 → point-3",
+        "passed": true
+      },
+      {
+        "label": "Finish inside finish",
+        "passed": true
+      },
+      {
+        "label": "Avoid collisions",
+        "passed": true
+      },
+      {
+        "label": "Run a Repeat block",
+        "passed": true
+      }
+    ]
+  },
+  "errors": [],
+  "end": {
+    "t": 10.98070000000298,
+    "robot": {
+      "x": 408.92211359621024,
+      "y": 304.15004208737867,
+      "heading": 0.0006196431623483634,
+      "wheels": [
+        2575.587477463214,
+        1155.6985792862906
+      ],
+      "arms": []
+    },
+    "objects": [],
+    "hub": {
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "statusColor": "#22c55e",
+      "distanceLights": {},
+      "text": ""
+    },
+    "sensors": {
+      "D": "white",
+      "E": 682.5790621096044,
+      "F": 0,
+      "C": 359.88682724762697
+    },
+    "events": []
+  },
+  "events": [
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "finish",
+        "tags": [
+          "finish"
+        ]
+      }
+    },
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "point-3",
+        "tags": []
+      }
+    },
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "point-1",
+        "tags": []
+      }
+    },
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "point-2",
+        "tags": []
+      }
+    }
+  ],
+  "usedBlocks": [
+    "controls_repeat_ext",
+    "spike_move",
+    "spike_turn"
+  ],
+  "variables": {},
+  "video": "videos/patterns-2.mp4"
+}

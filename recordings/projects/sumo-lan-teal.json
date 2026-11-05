@@ -1,0 +1,49 @@
+{
+  "kind": "spikesim-sumo",
+  "program": {
+    "blocks": {
+      "languageVersion": 0,
+      "blocks": [
+        {
+          "type": "spike_start",
+          "id": "program-start",
+          "x": 50,
+          "y": 50,
+          "deletable": false,
+          "next": {
+            "block": {
+              "type": "spike_tank",
+              "inputs": {
+                "LEFT": {
+                  "shadow": {
+                    "type": "math_number",
+                    "fields": {
+                      "NUM": 20
+                    }
+                  }
+                },
+                "RIGHT": {
+                  "shadow": {
+                    "type": "math_number",
+                    "fields": {
+                      "NUM": 20
+                    }
+                  }
+                },
+                "TIME": {
+                  "shadow": {
+                    "type": "math_number",
+                    "fields": {
+                      "NUM": 60
+                    }
+                  }
+                }
+              },
+              "id": "command-0"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

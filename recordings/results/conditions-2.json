@@ -1,0 +1,123 @@
+{
+  "id": "conditions-2",
+  "name": "Sensor detective",
+  "checkedAt": "2026-11-01T11:31:30.584Z",
+  "status": "complete",
+  "verdict": {
+    "passed": true,
+    "stars": 3,
+    "goals": [
+      {
+        "goal": {
+          "type": "reachZone",
+          "zone": "green-zone"
+        },
+        "passed": true,
+        "label": "Reach the green-zone zone"
+      }
+    ],
+    "runSeconds": 4.447,
+    "xp": 65
+  },
+  "uiOutcome": {
+    "stars": 3,
+    "goals": [
+      {
+        "label": "Reach the green-zone zone",
+        "passed": true
+      }
+    ]
+  },
+  "errors": [],
+  "end": {
+    "t": 4.447,
+    "robot": {
+      "x": 484.22304383794415,
+      "y": 459.97495718621326,
+      "heading": 1.562030891992434,
+      "wheels": [
+        1300.3821780400924,
+        884.047377885344
+      ],
+      "arms": []
+    },
+    "objects": [],
+    "hub": {
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "statusColor": "#22c55e",
+      "distanceLights": {},
+      "text": ""
+    },
+    "sensors": {
+      "D": "white",
+      "E": 31.530965883647134,
+      "F": 0,
+      "C": 89.54650938445546
+    },
+    "events": []
+  },
+  "events": [
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "red-zone",
+        "tags": [
+          "red",
+          "danger"
+        ]
+      }
+    },
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "green-zone",
+        "tags": [
+          "green",
+          "finish"
+        ]
+      }
+    }
+  ],
+  "usedBlocks": [
+    "spike_move",
+    "spike_turn"
+  ],
+  "variables": {},
+  "video": "videos/conditions-2.mp4"
+}

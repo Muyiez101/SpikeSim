@@ -1,0 +1,13 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.700
+This recording shows the original gyro exercise. The lesson experiment puts that same sensing idea inside a reusable My Block.
+
+2
+00:00:00.700 --> 00:00:05.320
+The robot turns toward 90°. The difference between the target and the reading gets smaller.
+
+3
+00:00:05.320 --> 00:00:06.116
+At the end, the robot faces near 90°. In your experiment, calling the same target again should cause little or no extra turn.

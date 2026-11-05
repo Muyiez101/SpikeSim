@@ -1,0 +1,13 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.700
+The robot starts on white. That makes this example’s colour question true.
+
+2
+00:00:00.700 --> 00:00:05.110
+The robot moves toward the marked circle because the Then branch was selected.
+
+3
+00:00:05.110 --> 00:00:05.915
+The robot has stopped after its 30 cm move. Try a false condition to see why it stays at the start instead.

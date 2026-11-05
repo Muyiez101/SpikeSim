@@ -1,0 +1,8 @@
+Blockly 11.2.2
+Copyright Google LLC and Blockly contributors.
+https://github.com/google/blockly
+
+Blockly and its bundled media are licensed under the Apache License,
+Version 2.0. A copy is provided in Apache-2.0.txt in this directory.
+SpikeSim adds its own block definitions, theme, program interpreter,
+and Python preview generator. Blockly's source is not modified.

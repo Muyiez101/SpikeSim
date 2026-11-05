@@ -1,0 +1,13 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.700
+The red marker is ahead of the robot, outside the downward sensor’s viewing area.
+
+2
+00:00:00.700 --> 00:00:05.120
+The front of the robot approaches the red patch. The sensor must reach the surface to read its colour.
+
+3
+00:00:05.120 --> 00:00:05.918
+The robot has stopped at the marker and the hub shows a heart. The program assigned that action to red.

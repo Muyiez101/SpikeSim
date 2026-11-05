@@ -1,0 +1,171 @@
+{
+  "id": "loops-4",
+  "name": "Rhythm robot",
+  "checkedAt": "2026-11-01T11:34:35.096Z",
+  "status": "complete",
+  "verdict": {
+    "passed": true,
+    "stars": 3,
+    "goals": [
+      {
+        "goal": {
+          "type": "usesBlock",
+          "block": "controls_repeat_ext"
+        },
+        "passed": true,
+        "label": "Run a Repeat block"
+      },
+      {
+        "goal": {
+          "type": "matrixLit"
+        },
+        "passed": true,
+        "label": "Show an image on the hub"
+      },
+      {
+        "goal": {
+          "type": "soundPlayed"
+        },
+        "passed": true,
+        "label": "Play a tone"
+      },
+      {
+        "goal": {
+          "type": "minTime",
+          "seconds": 4
+        },
+        "passed": true,
+        "label": "Run for at least 4 s"
+      }
+    ],
+    "runSeconds": 4.7671000000014905,
+    "xp": 80
+  },
+  "uiOutcome": {
+    "stars": 3,
+    "goals": [
+      {
+        "label": "Run a Repeat block",
+        "passed": true
+      },
+      {
+        "label": "Show an image on the hub",
+        "passed": true
+      },
+      {
+        "label": "Play a tone",
+        "passed": true
+      },
+      {
+        "label": "Run for at least 4 s",
+        "passed": true
+      }
+    ]
+  },
+  "errors": [],
+  "end": {
+    "t": 4.7671000000014905,
+    "robot": {
+      "x": 140.00217217822683,
+      "y": 299.99994252536516,
+      "heading": 0.0000016003492576964246,
+      "wheels": [
+        0.006161780960498667,
+        0.00048209645981210636
+      ],
+      "arms": []
+    },
+    "objects": [],
+    "hub": {
+      "matrix": [
+        [
+          0,
+          100,
+          0,
+          100,
+          0
+        ],
+        [
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        [
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        [
+          0,
+          100,
+          100,
+          100,
+          0
+        ],
+        [
+          0,
+          0,
+          100,
+          0,
+          0
+        ]
+      ],
+      "statusColor": "#22c55e",
+      "distanceLights": {},
+      "text": ""
+    },
+    "sensors": {
+      "D": "white",
+      "E": 951.4965256933997,
+      "F": 0,
+      "C": -0.0016710551390559658
+    },
+    "events": []
+  },
+  "events": [
+    {
+      "type": "sound",
+      "data": {
+        "t": 0.16880000000447035,
+        "frequency": 440,
+        "durationMs": 300
+      }
+    },
+    {
+      "type": "sound",
+      "data": {
+        "t": 1.3902000000029802,
+        "frequency": 440,
+        "durationMs": 300
+      }
+    },
+    {
+      "type": "sound",
+      "data": {
+        "t": 2.5524000000059606,
+        "frequency": 440,
+        "durationMs": 300
+      }
+    },
+    {
+      "type": "sound",
+      "data": {
+        "t": 3.7239000000059606,
+        "frequency": 440,
+        "durationMs": 300
+      }
+    }
+  ],
+  "usedBlocks": [
+    "controls_repeat_ext",
+    "spike_image",
+    "spike_beep",
+    "spike_wait"
+  ],
+  "variables": {},
+  "video": "videos/loops-4.mp4"
+}

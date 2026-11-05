@@ -1,0 +1,145 @@
+{
+    "id":  "sensors-1",
+    "name":  "Stop at the wall",
+    "checkedAt":  "2026-11-01T12:01:27.264Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "usesBlock",
+                                                   "block":  "spike_distance_compare"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run a spike_distance_compare block"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "sensorBetween",
+                                                   "port":  "E",
+                                                   "min":  190,
+                                                   "max":  200
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish with port E between 190 and 200 mm"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "avoidCollisions"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Avoid collisions"
+                                  }
+                              ],
+                    "runSeconds":  5.04460000000149,
+                    "xp":  75
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Run a spike_distance_compare block",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Finish with port E between 190 and 200 mm",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Avoid collisions",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  5.04460000000149,
+                "robot":  {
+                              "x":  697.8183942627347,
+                              "y":  360.2145819573799,
+                              "heading":  0.09081441886740066,
+                              "wheels":  [
+                                             1156.3125322600533,
+                                             1156.2846996669057
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               0,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "white",
+                                "E":  194.18271067218984,
+                                "F":  0,
+                                "C":  5.20194359845857
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+
+               ],
+    "usedBlocks":  [
+                       "spike_speed",
+                       "spike_start_move",
+                       "spike_wait_until",
+                       "spike_distance_compare",
+                       "spike_stop_move",
+                       "spike_wait"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/sensors-1.mp4"
+}

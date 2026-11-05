@@ -1,0 +1,125 @@
+{
+  "id": "conditions-1",
+  "name": "Green means go",
+  "checkedAt": "2026-11-01T11:31:03.928Z",
+  "status": "complete",
+  "verdict": {
+    "passed": true,
+    "stars": 3,
+    "goals": [
+      {
+        "goal": {
+          "type": "reachZone",
+          "zone": "green-zone"
+        },
+        "passed": true,
+        "label": "Reach the green-zone zone"
+      },
+      {
+        "goal": {
+          "type": "avoidZone",
+          "zone": "red-zone"
+        },
+        "passed": true,
+        "label": "Never enter red-zone"
+      }
+    ],
+    "runSeconds": 8.22740000000596,
+    "xp": 70
+  },
+  "uiOutcome": {
+    "stars": 3,
+    "goals": [
+      {
+        "label": "Reach the green-zone zone",
+        "passed": true
+      },
+      {
+        "label": "Never enter red-zone",
+        "passed": true
+      }
+    ]
+  },
+  "errors": [],
+  "end": {
+    "t": 8.22740000000596,
+    "robot": {
+      "x": 492.07411411830896,
+      "y": 485.5527501932555,
+      "heading": -4.703654658863822,
+      "wheels": [
+        1395.4956888951476,
+        961.9550409882663
+      ],
+      "arms": []
+    },
+    "objects": [],
+    "hub": {
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "statusColor": "#22c55e",
+      "distanceLights": {},
+      "text": ""
+    },
+    "sensors": {
+      "D": "white",
+      "E": 5.953138480131654,
+      "F": 0,
+      "C": 90.44089506960603
+    },
+    "events": []
+  },
+  "events": [
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "green-zone",
+        "tags": [
+          "green",
+          "finish"
+        ]
+      }
+    }
+  ],
+  "usedBlocks": [
+    "spike_turn",
+    "spike_move"
+  ],
+  "variables": {},
+  "video": "videos/conditions-1.mp4"
+}

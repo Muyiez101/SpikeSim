@@ -1,0 +1,111 @@
+{
+  "id": "basics-1",
+  "name": "First steps",
+  "checkedAt": "2026-11-01T11:28:08.052Z",
+  "status": "complete",
+  "verdict": {
+    "passed": true,
+    "stars": 3,
+    "goals": [
+      {
+        "goal": {
+          "type": "reachZone",
+          "zone": "landing-pad"
+        },
+        "passed": true,
+        "label": "Reach the landing-pad zone"
+      }
+    ],
+    "runSeconds": 2.7804000000059603,
+    "xp": 65
+  },
+  "uiOutcome": {
+    "stars": 3,
+    "goals": [
+      {
+        "label": "Reach the landing-pad zone",
+        "passed": true
+      }
+    ]
+  },
+  "errors": [],
+  "end": {
+    "t": 2.7804000000059603,
+    "robot": {
+      "x": 694.0778752645671,
+      "y": 314.6816230973459,
+      "heading": -0.0014473228729181859,
+      "wheels": [
+        1151.7677314362584,
+        1231.8378508051157
+      ],
+      "arms": []
+    },
+    "objects": [],
+    "hub": {
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "statusColor": "#22c55e",
+      "distanceLights": {},
+      "text": ""
+    },
+    "sensors": {
+      "D": "white",
+      "E": 197.42332715510565,
+      "F": 0,
+      "C": -0.08971963248400527
+    },
+    "events": []
+  },
+  "events": [
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "landing-pad",
+        "tags": [
+          "finish"
+        ]
+      }
+    }
+  ],
+  "usedBlocks": [
+    "spike_move"
+  ],
+  "variables": {},
+  "video": "videos/basics-1.mp4"
+}

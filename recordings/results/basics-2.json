@@ -1,0 +1,121 @@
+{
+  "id": "basics-2",
+  "name": "Turn and go",
+  "checkedAt": "2026-11-01T11:29:15.916Z",
+  "status": "complete",
+  "verdict": {
+    "passed": true,
+    "stars": 3,
+    "goals": [
+      {
+        "goal": {
+          "type": "reachZone",
+          "zone": "side-corridor"
+        },
+        "passed": true,
+        "label": "Reach the side-corridor zone"
+      }
+    ],
+    "runSeconds": 4.85320000000298,
+    "xp": 65
+  },
+  "uiOutcome": {
+    "stars": 3,
+    "goals": [
+      {
+        "label": "Reach the side-corridor zone",
+        "passed": true
+      }
+    ]
+  },
+  "errors": [],
+  "end": {
+    "t": 4.85320000000298,
+    "robot": {
+      "x": 730.0783298174169,
+      "y": 190.4920769043875,
+      "heading": -1.4396088343352915,
+      "wheels": [
+        1227.2970263763386,
+        1701.9562240119706
+      ],
+      "arms": []
+    },
+    "objects": [],
+    "hub": {
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "statusColor": "#22c55e",
+      "distanceLights": {},
+      "text": ""
+    },
+    "sensors": {
+      "D": "white",
+      "E": 82.84261016918555,
+      "F": 0,
+      "C": -82.44566660532729
+    },
+    "events": []
+  },
+  "events": [
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "landing-pad",
+        "tags": [
+          "finish"
+        ]
+      }
+    },
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "side-corridor",
+        "tags": [
+          "bonus"
+        ]
+      }
+    }
+  ],
+  "usedBlocks": [
+    "spike_move",
+    "spike_turn"
+  ],
+  "variables": {},
+  "video": "videos/basics-2.mp4"
+}

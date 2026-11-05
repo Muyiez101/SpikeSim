@@ -1,0 +1,34 @@
+{
+  "id": "sumo-lan",
+  "name": "Two-player Wi-Fi sumo",
+  "checkedAt": "2026-11-01T14:01:04.637Z",
+  "status": "complete",
+  "video": "videos/sumo-lan.mp4",
+  "frame": {
+    "time": 6.500000000000113,
+    "robots": [
+      {
+        "x": 0,
+        "y": 84.06776960784414,
+        "heading": 0,
+        "activeId": "match-7"
+      },
+      {
+        "x": 7.164183775011905e-15,
+        "y": 100.06973039215788,
+        "heading": 180,
+        "activeId": "teal-drive"
+      }
+    ],
+    "winner": 0,
+    "reason": "ring-out",
+    "finished": true
+  },
+  "players": [
+    "Blue team",
+    "Teal team"
+  ],
+  "clientsAgree": true,
+  "scope": "Two isolated browser sessions on one computer; guest used the LAN-interface address. A separate physical computer and Electron executable remain unverified.",
+  "errors": []
+}

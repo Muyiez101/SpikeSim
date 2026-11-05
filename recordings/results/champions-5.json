@@ -1,0 +1,183 @@
+{
+    "id":  "champions-5",
+    "name":  "Red alert",
+    "checkedAt":  "2026-11-01T12:03:15.099Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "usesBlock",
+                                                   "block":  "spike_color_is"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run a spike_color_is block"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "sensorAtEnd",
+                                                   "port":  "D",
+                                                   "value":  "red"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish with port D reading red"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "matrixLit"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Show an image on the hub"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "soundPlayed"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Play a tone"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "avoidCollisions"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Avoid collisions"
+                                  }
+                              ],
+                    "runSeconds":  3.8878999999985098,
+                    "xp":  85
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Run a spike_color_is block",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Finish with port D reading red",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Show an image on the hub",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Play a tone",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Avoid collisions",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  3.8878999999985098,
+                "robot":  {
+                              "x":  452.97438959004586,
+                              "y":  295.34086812250877,
+                              "heading":  -0.035391712115855234,
+                              "wheels":  [
+                                             641.4158877475409,
+                                             641.0043420529721
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               0,
+                                               100,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               100,
+                                               100,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               100,
+                                               100,
+                                               100,
+                                               100,
+                                               100
+                                           ],
+                                           [
+                                               0,
+                                               100,
+                                               100,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               100,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "red",
+                                "E":  438.86312534907717,
+                                "F":  0,
+                                "C":  -2.0275929658313885
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "finish",
+                                    "tags":  [
+                                                 "finish"
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "sound",
+                       "data":  {
+                                    "t":  3.282,
+                                    "frequency":  440,
+                                    "durationMs":  500
+                                }
+                   }
+               ],
+    "usedBlocks":  [
+                       "spike_speed",
+                       "spike_start_move",
+                       "spike_wait_until",
+                       "spike_color_is",
+                       "spike_stop_move",
+                       "spike_image",
+                       "spike_beep"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/champions-5.mp4"
+}

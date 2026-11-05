@@ -1,0 +1,13 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.700
+The robot starts at the left of the course. Its two downward sensors travel on opposite sides of the line.
+
+2
+00:00:00.700 --> 00:00:36.700
+The robot follows a bend. New brightness readings change the difference between its wheel speeds.
+
+3
+00:00:36.700 --> 00:01:19.510
+The robot is parked near the finish circle. An encoder limit ends this particular calibrated course.

@@ -1,0 +1,7 @@
+/* Local SpikeSim integration; original Gears UI and menus are retained. */
+body.spikesim-split .panels > .panel[aria-labelledby="navBlocks"],
+body.spikesim-split .panels > .panel[aria-labelledby="navPython"] { width: 46%; }
+body.spikesim-split .panels > #simPanel { left: 46%; width: 54%; z-index: 1; border-left: 2px solid #95a0b0; }
+body.spikesim-split #renderCanvas { width: 100%; height: 100%; }
+body.spikesim-full-sim #simPanel { left: 0; width: 100%; }
+body.spikesim-split #blocklyPages { width: 46%; }

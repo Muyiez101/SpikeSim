@@ -1,0 +1,13 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.700
+The robot begins before the delivery point. The program resets its counter to zero.
+
+2
+00:00:00.700 --> 00:00:05.960
+The repeated short moves carry it along the route. Each call also adds one to deliveries.
+
+3
+00:00:05.960 --> 00:00:06.762
+The robot is stopped after three trips. Run the editable example to inspect the final deliveries value of 3.

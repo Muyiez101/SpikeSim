@@ -1,0 +1,13 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.700
+The robot starts before a route with a corner. Both straight sections use the same travel definition.
+
+2
+00:00:00.700 --> 00:00:08.130
+One travel call and a turn lead into the next straight section. The calls give travel different distances.
+
+3
+00:00:08.130 --> 00:00:08.928
+The robot finishes after trips of 20 cm and 30 cm. One definition can do both jobs.

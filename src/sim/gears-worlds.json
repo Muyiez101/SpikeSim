@@ -1,0 +1,254 @@
+[
+  {
+    "id": "world:grid",
+    "name": "Grid Map (20cm)",
+    "worldName": "grid",
+    "options": {}
+  },
+  {
+    "id": "world:lineFollowing:simple",
+    "name": "Line Following Challenges: Simple Curves",
+    "worldName": "lineFollowing",
+    "options": {
+      "image": "simple"
+    }
+  },
+  {
+    "id": "world:lineFollowing:sharp",
+    "name": "Line Following Challenges: Sharp Turns",
+    "worldName": "lineFollowing",
+    "options": {
+      "image": "sharp"
+    }
+  },
+  {
+    "id": "world:lineFollowing:gaps1",
+    "name": "Line Following Challenges: Gaps 1",
+    "worldName": "lineFollowing",
+    "options": {
+      "image": "gaps1"
+    }
+  },
+  {
+    "id": "world:lineFollowing:gaps2",
+    "name": "Line Following Challenges: Gaps 2",
+    "worldName": "lineFollowing",
+    "options": {
+      "image": "gaps2"
+    }
+  },
+  {
+    "id": "world:lineFollowing:obstacles1",
+    "name": "Line Following Challenges: Obstacles 1",
+    "worldName": "lineFollowing",
+    "options": {
+      "image": "obstacles1"
+    }
+  },
+  {
+    "id": "world:lineFollowing:obstacles2",
+    "name": "Line Following Challenges: Obstacles 2",
+    "worldName": "lineFollowing",
+    "options": {
+      "image": "obstacles2"
+    }
+  },
+  {
+    "id": "world:lineFollowing:obstacles3",
+    "name": "Line Following Challenges: Obstacles 3",
+    "worldName": "lineFollowing",
+    "options": {
+      "image": "obstacles3"
+    }
+  },
+  {
+    "id": "world:lineFollowing:obstacles4",
+    "name": "Line Following Challenges: Obstacles 4",
+    "worldName": "lineFollowing",
+    "options": {
+      "image": "obstacles4"
+    }
+  },
+  {
+    "id": "world:lineFollowing:junctions1",
+    "name": "Line Following Challenges: Junctions 1",
+    "worldName": "lineFollowing",
+    "options": {
+      "image": "junctions1"
+    }
+  },
+  {
+    "id": "world:lineFollowing:junctions2",
+    "name": "Line Following Challenges: Junctions 2",
+    "worldName": "lineFollowing",
+    "options": {
+      "image": "junctions2"
+    }
+  },
+  {
+    "id": "world:gyro:straight",
+    "name": "Gyro Challenges: Straight Run",
+    "worldName": "gyro",
+    "options": {
+      "image": "straight"
+    }
+  },
+  {
+    "id": "world:gyro:square",
+    "name": "Gyro Challenges: Square Loops",
+    "worldName": "gyro",
+    "options": {
+      "image": "square"
+    }
+  },
+  {
+    "id": "world:gyro:randomDirection",
+    "name": "Gyro Challenges: Random Direction",
+    "worldName": "gyro",
+    "options": {
+      "image": "randomDirection"
+    }
+  },
+  {
+    "id": "world:paintball:firingRange",
+    "name": "Paintball Challenges: Firing Range",
+    "worldName": "paintball",
+    "options": {
+      "challenge": "firingRange"
+    }
+  },
+  {
+    "id": "world:paintball:variableRange",
+    "name": "Paintball Challenges: Variable Range",
+    "worldName": "paintball",
+    "options": {
+      "challenge": "variableRange"
+    }
+  },
+  {
+    "id": "world:paintball:findTarget",
+    "name": "Paintball Challenges: Find the Target",
+    "worldName": "paintball",
+    "options": {
+      "challenge": "findTarget"
+    }
+  },
+  {
+    "id": "world:paintball:highLow",
+    "name": "Paintball Challenges: High and Low",
+    "worldName": "paintball",
+    "options": {
+      "challenge": "highLow"
+    }
+  },
+  {
+    "id": "world:paintball:movingTarget1",
+    "name": "Paintball Challenges: Moving Target 1",
+    "worldName": "paintball",
+    "options": {
+      "challenge": "movingTarget1"
+    }
+  },
+  {
+    "id": "world:paintball:movingTarget2",
+    "name": "Paintball Challenges: Moving Target 2",
+    "worldName": "paintball",
+    "options": {
+      "challenge": "movingTarget2"
+    }
+  },
+  {
+    "id": "world:sumo:fixedDummies",
+    "name": "Sumo Challenges: Fixed Dummies",
+    "worldName": "sumo",
+    "options": {
+      "image": "fixedDummies"
+    }
+  },
+  {
+    "id": "world:sumo:randomDummies",
+    "name": "Sumo Challenges: Random Dummies",
+    "worldName": "sumo",
+    "options": {
+      "image": "randomDummies"
+    }
+  },
+  {
+    "id": "world:sumo:randomNoRed",
+    "name": "Sumo Challenges: No Border",
+    "worldName": "sumo",
+    "options": {
+      "image": "randomNoRed"
+    }
+  },
+  {
+    "id": "world:sumo:fixedPillars",
+    "name": "Sumo Challenges: Pillars",
+    "worldName": "sumo",
+    "options": {
+      "image": "fixedPillars"
+    }
+  },
+  {
+    "id": "world:fireRescue:grocers",
+    "name": "Fire Rescue: Fire at the Grocers",
+    "worldName": "fireRescue",
+    "options": {
+      "challenge": "grocers"
+    }
+  },
+  {
+    "id": "world:fireRescue:warehouse",
+    "name": "Fire Rescue: Warehouse Fire",
+    "worldName": "fireRescue",
+    "options": {
+      "challenge": "warehouse"
+    }
+  },
+  {
+    "id": "world:maze:perfect",
+    "name": "Maze Map: Perfect",
+    "worldName": "maze",
+    "options": {
+      "mazeType": "perfect"
+    }
+  },
+  {
+    "id": "world:maze:imperfect",
+    "name": "Maze Map: Imperfect",
+    "worldName": "maze",
+    "options": {
+      "mazeType": "imperfect"
+    }
+  },
+  {
+    "id": "world:football",
+    "name": "Football Arena",
+    "worldName": "football",
+    "options": {}
+  },
+  {
+    "id": "world:arena:island",
+    "name": "Multi-Robot Arena: Paintball Islands",
+    "worldName": "arena",
+    "options": {
+      "challenge": "island"
+    }
+  },
+  {
+    "id": "world:arena:collector",
+    "name": "Multi-Robot Arena: Color Collector",
+    "worldName": "arena",
+    "options": {
+      "challenge": "collector"
+    }
+  },
+  {
+    "id": "world:arena:sumo",
+    "name": "Multi-Robot Arena: Sumo",
+    "worldName": "arena",
+    "options": {
+      "challenge": "sumo"
+    }
+  }
+]

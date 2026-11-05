@@ -1,0 +1,13 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.700
+The robot starts at one corner of the four marked points.
+
+2
+00:00:00.700 --> 00:00:14.760
+It is partway through the square. The same move-and-turn pair is used at every corner.
+
+3
+00:00:14.760 --> 00:00:15.561
+The robot is back near its starting point. Compare both position and heading.

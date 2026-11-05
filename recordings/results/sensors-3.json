@@ -1,0 +1,172 @@
+{
+    "id":  "sensors-3",
+    "name":  "Bump and back",
+    "checkedAt":  "2026-11-01T12:01:58.149Z",
+    "status":  "complete",
+    "verdict":  {
+                    "passed":  true,
+                    "stars":  3,
+                    "goals":  [
+                                  {
+                                      "goal":  {
+                                                   "type":  "usesBlock",
+                                                   "block":  "spike_force_pressed"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Run a spike_force_pressed block"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "sensorSeen",
+                                                   "port":  "F",
+                                                   "value":  10
+                                               },
+                                      "passed":  true,
+                                      "label":  "Read 10 on port F during the run"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "stopInZone",
+                                                   "zone":  "finish"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Finish inside finish"
+                                  },
+                                  {
+                                      "goal":  {
+                                                   "type":  "matrixLit"
+                                               },
+                                      "passed":  true,
+                                      "label":  "Show an image on the hub"
+                                  }
+                              ],
+                    "runSeconds":  10.1995,
+                    "xp":  80
+                },
+    "uiOutcome":  {
+                      "stars":  3,
+                      "goals":  [
+                                    {
+                                        "label":  "Run a spike_force_pressed block",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Read 10 on port F during the run",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Finish inside finish",
+                                        "passed":  true
+                                    },
+                                    {
+                                        "label":  "Show an image on the hub",
+                                        "passed":  true
+                                    }
+                                ]
+                  },
+    "errors":  [
+
+               ],
+    "end":  {
+                "t":  10.1995,
+                "robot":  {
+                              "x":  681.8703046559208,
+                              "y":  317.3796113252265,
+                              "heading":  0.002647497104152025,
+                              "wheels":  [
+                                             1129.185012255307,
+                                             1129.5019238871812
+                                         ],
+                              "arms":  [
+
+                                       ]
+                          },
+                "objects":  [
+
+                            ],
+                "hub":  {
+                            "matrix":  [
+                                           [
+                                               0,
+                                               0,
+                                               100,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               100,
+                                               100,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               100,
+                                               100,
+                                               100,
+                                               100,
+                                               100
+                                           ],
+                                           [
+                                               0,
+                                               100,
+                                               100,
+                                               0,
+                                               0
+                                           ],
+                                           [
+                                               0,
+                                               0,
+                                               100,
+                                               0,
+                                               0
+                                           ]
+                                       ],
+                            "statusColor":  "#22c55e",
+                            "distanceLights":  {
+
+                                               },
+                            "text":  ""
+                        },
+                "sensors":  {
+                                "D":  "white",
+                                "E":  209.62925874668986,
+                                "F":  0,
+                                "C":  0.1492883017668163
+                            },
+                "events":  [
+
+                           ]
+            },
+    "events":  [
+                   {
+                       "type":  "zoneEnter",
+                       "data":  {
+                                    "zone":  "finish",
+                                    "tags":  [
+                                                 "finish"
+                                             ]
+                                }
+                   },
+                   {
+                       "type":  "collision",
+                       "data":  {
+                                    "wall":  "3d obstacle"
+                                }
+                   }
+               ],
+    "usedBlocks":  [
+                       "spike_speed",
+                       "spike_start_move",
+                       "spike_wait_until",
+                       "spike_force_pressed",
+                       "spike_stop_move",
+                       "spike_wait",
+                       "spike_move",
+                       "spike_image"
+                   ],
+    "variables":  {
+
+                  },
+    "video":  "videos/sensors-3.mp4"
+}

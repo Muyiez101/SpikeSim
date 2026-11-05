@@ -1,0 +1,372 @@
+{
+  "id": "loops-1",
+  "name": "Token collector",
+  "checkedAt": "2026-11-01T11:32:56.697Z",
+  "status": "complete",
+  "verdict": {
+    "passed": true,
+    "stars": 3,
+    "goals": [
+      {
+        "goal": {
+          "type": "pushObjectWithTagToZone",
+          "tag": "token",
+          "zone": "home"
+        },
+        "passed": true,
+        "label": "Push a token object into home"
+      }
+    ],
+    "runSeconds": 3.84579999999702,
+    "xp": 65
+  },
+  "uiOutcome": {
+    "stars": 3,
+    "goals": [
+      {
+        "label": "Push a token object into home",
+        "passed": true
+      }
+    ]
+  },
+  "errors": [],
+  "end": {
+    "t": 3.84579999999702,
+    "robot": {
+      "x": 807.5619534813292,
+      "y": 297.64997063209546,
+      "heading": 0.001199752310936199,
+      "wheels": [
+        1404.601461021751,
+        1381.8375417850486
+      ],
+      "arms": []
+    },
+    "objects": [
+      {
+        "id": "token-1",
+        "x": 949.9627685546875,
+        "y": 300.1749772578478,
+        "heading": 0
+      },
+      {
+        "id": "token-2",
+        "x": 480.00001311302185,
+        "y": 170,
+        "heading": 0
+      },
+      {
+        "id": "token-3",
+        "x": 480.00001430511475,
+        "y": 430,
+        "heading": 0
+      }
+    ],
+    "hub": {
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "statusColor": "#22c55e",
+      "distanceLights": {},
+      "text": ""
+    },
+    "sensors": {
+      "D": "white",
+      "E": 13.901403956265968,
+      "F": 0,
+      "C": 0.20340339791971473
+    },
+    "events": []
+  },
+  "events": [
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "zoneEnter",
+      "data": {
+        "zone": "home",
+        "tags": [
+          "home",
+          "finish"
+        ]
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    },
+    {
+      "type": "collision",
+      "data": {
+        "wall": "3d obstacle"
+      }
+    }
+  ],
+  "usedBlocks": [
+    "spike_move"
+  ],
+  "variables": {},
+  "video": "videos/loops-1.mp4"
+}

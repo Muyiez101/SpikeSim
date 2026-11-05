@@ -1,0 +1,115 @@
+{
+  "id": "conditions-4",
+  "name": "Yellow light",
+  "checkedAt": "2026-11-01T11:33:56.251Z",
+  "status": "complete",
+  "verdict": {
+    "passed": true,
+    "stars": 3,
+    "goals": [
+      {
+        "goal": {
+          "type": "sensorAtEnd",
+          "port": "D",
+          "value": "yellow"
+        },
+        "passed": true,
+        "label": "Finish with port D reading yellow"
+      },
+      {
+        "goal": {
+          "type": "matrixLit"
+        },
+        "passed": true,
+        "label": "Show an image on the hub"
+      }
+    ],
+    "runSeconds": 6.046400000005961,
+    "xp": 70
+  },
+  "uiOutcome": {
+    "stars": 3,
+    "goals": [
+      {
+        "label": "Finish with port D reading yellow",
+        "passed": true
+      },
+      {
+        "label": "Show an image on the hub",
+        "passed": true
+      }
+    ]
+  },
+  "errors": [],
+  "end": {
+    "t": 6.046400000005961,
+    "robot": {
+      "x": 418.5823150720653,
+      "y": 173.17582081661521,
+      "heading": 0.05586743186904239,
+      "wheels": [
+        827.1342988304626,
+        948.7641252099297
+      ],
+      "arms": []
+    },
+    "objects": [],
+    "hub": {
+      "matrix": [
+        [
+          0,
+          100,
+          0,
+          100,
+          0
+        ],
+        [
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        [
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        [
+          0,
+          100,
+          100,
+          100,
+          0
+        ],
+        [
+          0,
+          0,
+          100,
+          0,
+          0
+        ]
+      ],
+      "statusColor": "#22c55e",
+      "distanceLights": {},
+      "text": ""
+    },
+    "sensors": {
+      "D": "yellow",
+      "E": 473.36772590706266,
+      "F": 0,
+      "C": 2.9066352337076182
+    },
+    "events": []
+  },
+  "events": [],
+  "usedBlocks": [
+    "spike_turn",
+    "spike_move",
+    "spike_image"
+  ],
+  "variables": {},
+  "video": "videos/conditions-4.mp4"
+}

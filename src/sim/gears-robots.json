@@ -1,0 +1,1096 @@
+[
+  {
+    "id": "singleFollower",
+    "width": 14,
+    "length": 16,
+    "wheelDiameter": 5.6,
+    "trackWidth": 15.200000000000001,
+    "components": [
+      {
+        "type": "ColorSensor",
+        "position": [
+          0,
+          -1,
+          9
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "UltrasonicSensor",
+        "position": [
+          0,
+          2.5,
+          8
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "GyroSensor",
+        "position": [
+          0,
+          2.5,
+          2.5
+        ]
+      },
+      {
+        "type": "GPSSensor",
+        "position": [
+          0,
+          2.5,
+          5
+        ]
+      },
+      {
+        "type": "MagnetActuator",
+        "position": [
+          0,
+          -1,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Pen",
+        "position": [
+          0,
+          0,
+          6
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "doubleFollower",
+    "width": 14,
+    "length": 16,
+    "wheelDiameter": 5.6,
+    "trackWidth": 15.200000000000001,
+    "components": [
+      {
+        "type": "ColorSensor",
+        "position": [
+          -2,
+          -1,
+          9
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "ColorSensor",
+        "position": [
+          2,
+          -1,
+          9
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "UltrasonicSensor",
+        "position": [
+          0,
+          2.5,
+          8
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "GyroSensor",
+        "position": [
+          0,
+          2.5,
+          2.5
+        ]
+      },
+      {
+        "type": "GPSSensor",
+        "position": [
+          0,
+          2.5,
+          5
+        ]
+      },
+      {
+        "type": "MagnetActuator",
+        "position": [
+          0,
+          -1,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "paintball",
+    "width": 14,
+    "length": 16,
+    "wheelDiameter": 5.6,
+    "trackWidth": 15.200000000000001,
+    "components": [
+      {
+        "type": "ColorSensor",
+        "position": [
+          -2,
+          -1,
+          9
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "ColorSensor",
+        "position": [
+          2,
+          -1,
+          9
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "LaserRangeSensor",
+        "position": [
+          0,
+          2.5,
+          7.5
+        ],
+        "rotation": [
+          -1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "GyroSensor",
+        "position": [
+          2.5,
+          2.5,
+          5
+        ]
+      },
+      {
+        "type": "GPSSensor",
+        "position": [
+          0,
+          2.5,
+          5
+        ]
+      },
+      {
+        "type": "MagnetActuator",
+        "position": [
+          0,
+          -1,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "ArmActuator",
+        "position": [
+          0,
+          3,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "PaintballLauncherActuator",
+        "position": [
+          0,
+          2.3,
+          2
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maze",
+    "width": 14,
+    "length": 16,
+    "wheelDiameter": 5.6,
+    "trackWidth": 15.200000000000001,
+    "components": [
+      {
+        "type": "ColorSensor",
+        "position": [
+          0,
+          -1,
+          9
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "UltrasonicSensor",
+        "position": [
+          0,
+          2.5,
+          8
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "UltrasonicSensor",
+        "position": [
+          -6,
+          3,
+          4
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0
+        ]
+      },
+      {
+        "type": "UltrasonicSensor",
+        "position": [
+          6,
+          3,
+          4
+        ],
+        "rotation": [
+          0,
+          1.5707963267948966,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          -8.7,
+          -1,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          8.7,
+          -1,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "GyroSensor",
+        "position": [
+          0,
+          2.5,
+          5
+        ]
+      },
+      {
+        "type": "MagnetActuator",
+        "position": [
+          0,
+          -1,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maze2",
+    "width": 14,
+    "length": 16,
+    "wheelDiameter": 5.6,
+    "trackWidth": 15.200000000000001,
+    "components": [
+      {
+        "type": "ColorSensor",
+        "position": [
+          0,
+          -1,
+          9
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          -8.7,
+          -1,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          8.7,
+          -1,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "GyroSensor",
+        "position": [
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "type": "MagnetActuator",
+        "position": [
+          0,
+          -1,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "SwivelActuator",
+        "position": [
+          0,
+          2,
+          5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "LaserRangeSensor",
+        "position": [
+          -0.75,
+          1,
+          0
+        ],
+        "rotation": [
+          -1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "ColorSensor",
+        "position": [
+          1,
+          1.25,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tow",
+    "width": 14,
+    "length": 16,
+    "wheelDiameter": 5.6,
+    "trackWidth": 15.200000000000001,
+    "components": [
+      {
+        "type": "ColorSensor",
+        "position": [
+          -2,
+          -1,
+          9
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "ColorSensor",
+        "position": [
+          2,
+          -1,
+          9
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "UltrasonicSensor",
+        "position": [
+          0,
+          2.5,
+          8
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          -8.7,
+          -1,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          8.7,
+          -1,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "GyroSensor",
+        "position": [
+          -4,
+          2.5,
+          5
+        ]
+      },
+      {
+        "type": "ArmActuator",
+        "position": [
+          0,
+          3,
+          4
+        ],
+        "rotation": [
+          0,
+          3.141592653589793,
+          0
+        ]
+      },
+      {
+        "type": "MagnetActuator",
+        "position": [
+          0,
+          -1.75,
+          8
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "crane",
+    "width": 14,
+    "length": 16,
+    "wheelDiameter": 5.6,
+    "trackWidth": 15.200000000000001,
+    "components": [
+      {
+        "type": "ColorSensor",
+        "position": [
+          -2,
+          -1,
+          9
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "ColorSensor",
+        "position": [
+          2,
+          -1,
+          9
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "UltrasonicSensor",
+        "position": [
+          0,
+          2.5,
+          8
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          -8.7,
+          -1,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          8.7,
+          -1,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "GyroSensor",
+        "position": [
+          -4,
+          2.5,
+          5
+        ]
+      },
+      {
+        "type": "ArmActuator",
+        "position": [
+          0,
+          3,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "ArmActuator",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "MagnetActuator",
+        "position": [
+          0,
+          -1.75,
+          8
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "ColorSensor",
+        "position": [
+          0,
+          -1.25,
+          10
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cage",
+    "width": 14,
+    "length": 14,
+    "wheelDiameter": 5.6,
+    "trackWidth": 15.200000000000001,
+    "components": [
+      {
+        "type": "ColorSensor",
+        "position": [
+          -2,
+          -1,
+          8
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "ColorSensor",
+        "position": [
+          2,
+          -1,
+          8
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "ColorSensor",
+        "position": [
+          0,
+          -2,
+          7.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "UltrasonicSensor",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "GyroSensor",
+        "position": [
+          0,
+          2.5,
+          2.5
+        ]
+      },
+      {
+        "type": "GPSSensor",
+        "position": [
+          0,
+          2.5,
+          5
+        ]
+      },
+      {
+        "type": "ArmActuator",
+        "position": [
+          5.5,
+          2,
+          -1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          -5.5,
+          -4,
+          5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          -5.5,
+          -4,
+          11
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          -2,
+          -4,
+          8
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          -9,
+          -4,
+          8
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          0,
+          -2.5,
+          6.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          -1,
+          -4,
+          6.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "football",
+    "width": 14,
+    "length": 16,
+    "wheelDiameter": 5.6,
+    "trackWidth": 15.200000000000001,
+    "components": [
+      {
+        "type": "GyroSensor",
+        "position": [
+          0,
+          2.5,
+          2.5
+        ]
+      },
+      {
+        "type": "GPSSensor",
+        "position": [
+          0,
+          2.5,
+          0
+        ]
+      },
+      {
+        "type": "MagnetActuator",
+        "position": [
+          0,
+          -0.5,
+          7
+        ],
+        "rotation": [
+          -1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "MagnetActuator",
+        "position": [
+          0,
+          -0.5,
+          -7
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Sphere",
+        "position": [
+          0,
+          -0.95,
+          5.2
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WROSport",
+    "width": 14,
+    "length": 16,
+    "wheelDiameter": 5.6,
+    "trackWidth": 15.200000000000001,
+    "components": [
+      {
+        "type": "ColorSensor",
+        "position": [
+          0,
+          -1,
+          6
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "GyroSensor",
+        "position": [
+          0,
+          2.5,
+          2
+        ]
+      },
+      {
+        "type": "MagnetActuator",
+        "position": [
+          0,
+          -2.2,
+          8.5
+        ],
+        "rotation": [
+          -1.6580627893946132,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          2.1,
+          -1.5,
+          8.5
+        ],
+        "rotation": [
+          0,
+          0.2617993877991494,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          -2.1,
+          -1.5,
+          8.5
+        ],
+        "rotation": [
+          0,
+          -0.2617993877991494,
+          0
+        ]
+      },
+      {
+        "type": "CameraSensor",
+        "position": [
+          0,
+          7,
+          8
+        ],
+        "rotation": [
+          0.6108652381980153,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          0,
+          4.5,
+          6.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "ColorSensor",
+        "position": [
+          0,
+          1.5,
+          9
+        ],
+        "rotation": [
+          0.7853981633974483,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          5.2,
+          -1,
+          9
+        ],
+        "rotation": [
+          0,
+          -1.0471975511965976,
+          0
+        ]
+      },
+      {
+        "type": "Box",
+        "position": [
+          -5.2,
+          -1,
+          9
+        ],
+        "rotation": [
+          0,
+          1.0471975511965976,
+          0
+        ]
+      },
+      {
+        "type": "GPSSensor",
+        "position": [
+          0,
+          2.5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+]
