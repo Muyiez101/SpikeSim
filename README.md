@@ -2,6 +2,13 @@
 
 **A little code. A world of possibilities.**
 
+Build a virtual robot, connect a few blocks, and watch your ideas move. SpikeSim
+brings coding, 3D practice and guided lessons into one offline robotics workspace.
+
+![SpikeSim workspace with movement blocks beside a virtual robot on a 3D practice field](website/assets/workspace.png)
+
+*The real SpikeSim workspace: editable blocks, a virtual robot and a 3D practice field.*
+
 The download website is configured for **Vercel connected to GitHub**. GitHub
 stores the source and Windows release files; Vercel serves `website/` using the
 root `vercel.json`. Run `npm.cmd run site:dev` for the local website and
@@ -38,6 +45,10 @@ After building, run `npm.cmd run classroom:host`
 and open http://127.0.0.1:41866/?competition=host. See the
 [teacher guide and remaining scope](docs/teacher-competitions.md).
 
+![SpikeSim teacher workspace showing a sample sumo result, scoreboard and classroom controls](website/assets/classroom.png)
+
+*Class competitions with demonstration students: prepare, run a match and review the results.*
+
 The app opens one student workspace: 66 simple Blockly instructions beside a large Gears-powered 3D simulator. One picker includes 41 learning missions, 32 Gears practice challenges, 38 FLL/WRO fields, and open practice. The simulator has ten robot choices, live sensors, hub lights, sound, camera controls, a resizable split, and an expanded view. There is no separate Gears library screen. Projects retain their blocks, robot ports, selected robot, and world.
 
 Build a robot opens the physical component editor inside SpikeSim. Its FLL practice base has drive motors, front and rear powered attachments, color/distance sensing, and a gyro. Add or position parts, change dimensions, and use the result with your existing blocks. Build a ground edits field images, objects, walls, and mechanisms; it also accepts your own PNG/JPEG/WebP image. Custom designs save inside `.rlproj` files and remain available when switching back to a preset. The simulator stays covered by SpikeSim's loading screen until the selected world is ready, so the upstream editor no longer flashes during loading.
@@ -52,9 +63,9 @@ Our block-generated Python controls Babylon/Ammo physics through a bounded Skulp
 
 Gears source, robots, worlds, models, upstream examples, and notices are bundled in `public/gears/`. The simple toolbox does not yet expose every Gears-specific device (such as camera vision, GPS, or pen drawing), arbitrary Gears XML/Python projects, or multi-robot programming. The builder assembles simulation components rather than individual LEGO bricks. Direct Python editing, permanent XP/unlocks, cloud classroom sync and assignment packs remain unfinished. Local teacher competitions are described above. See [the workspace notes](docs/unified-workspace.md) for the runtime and port mapping.
 
-`npm.cmd run build` builds the web app and Electron entry files. The local Windows installer is `release/SpikeSim Setup 0.1.0.exe`. Installation, installed-app acceptance and uninstall passed, including simulator/builders, program files, lesson media, classroom workers and restart recovery. `npm.cmd run desktop:check` repeats acceptance with isolated data. The build is unsigned and has not been published. See [Windows packaging and acceptance](docs/packaging.md) for instructions and remaining limits.
+`npm.cmd run build` builds the web app and Electron entry files. Windows installers are distributed through [GitHub Releases](https://github.com/Muyiez101/SpikeSim/releases). Local installation, installed-app acceptance and uninstall passed, including simulator/builders, program files, lesson media, classroom workers and restart recovery. `npm.cmd run desktop:check` repeats acceptance with isolated data. This is an unsigned Windows preview. See [Windows packaging and acceptance](docs/packaging.md) for instructions and remaining limits.
 
-Validation: `npm.cmd run lint`, `npm.cmd run typecheck`, `npm.cmd test -- --maxWorkers=1`, `npm.cmd run e2e -- --workers=1`, and `npm.cmd run build`. Blockly notices are bundled in `public/licenses/`. Gears is GPL-3.0; preserve its notices and provide corresponding source for GPL-covered distributions. Upstream FLL artwork redistribution permission remains unverified. The local copy was explicitly authorized by the user; nothing has been published. See [asset notices](public/gears/SPIKESIM-NOTICE.md).
+Validation: `npm.cmd run lint`, `npm.cmd run typecheck`, `npm.cmd test -- --maxWorkers=1`, `npm.cmd run e2e -- --workers=1`, and `npm.cmd run build`. Blockly notices are bundled in `public/licenses/`. Gears is GPL-3.0; preserve its notices and provide corresponding source for GPL-covered distributions. Upstream FLL artwork redistribution permission remains unverified. The repository includes the full simulator with its upstream licenses and credits. See [asset notices](public/gears/SPIKESIM-NOTICE.md).
 
 ## Original design pack
 
