@@ -1,6 +1,11 @@
 {
   "repository": "Muyiez101/SpikeSim",
-  "published": false,
+  "published": true,
   "version": "0.1.0",
-  "windows": null
+  "windows": {
+    "url": "https://github.com/Muyiez101/SpikeSim/releases/download/v0.1.0/SpikeSim-Setup-0.1.0.exe",
+    "sha256": "f0a17e5c780512cd05cede5addbf64eb4fa31a35e2d80bf0940c9273cd58374d",
+    "bytes": 202524965,
+    "signed": false
+  }
 }
